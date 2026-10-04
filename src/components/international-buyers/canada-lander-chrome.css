@@ -1,0 +1,18 @@
+.canada-lander-shell{--uk-ink:#173b47;min-height:100vh;background:#f7f5f0;color:#173b47}
+.canada-lander-shell main{flex:1}
+.canada-lander-shell .campaign-steps article>span{color:#7b5125}
+.canada-lander-chrome-inner{width:min(1180px,calc(100% - 64px));margin-inline:auto}
+.canada-lander-header{background:#fff;border-bottom:1px solid #d8dfdb}
+.canada-lander-header .canada-lander-chrome-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:88px;padding-block:12px}
+.canada-lander-header img{width:180px;height:48px;object-fit:contain;filter:brightness(0)}
+.canada-lander-footer{padding:32px 0 40px;background:#173b47;color:#fff;font-size:13px;line-height:1.8}
+.canada-lander-footer p+p{margin-top:12px}.canada-lander-footer nav{display:flex;flex-wrap:wrap;gap:4px 22px;margin-block:16px}
+.canada-lander-footer nav a{display:inline-flex;align-items:center;min-height:44px}
+.canada-lander-footer a{text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.canada-lander-shell a:focus-visible{outline:3px solid #976632;outline-offset:4px}
+body:has(.canada-lander-shell) .crisp-client{display:none!important}
+@media(max-width:760px){.canada-lander-chrome-inner{width:calc(100% - 32px)}.canada-lander-header .canada-lander-chrome-inner{min-height:72px;gap:12px}.canada-lander-header img{width:92px;height:36px}.canada-lander-header .uk-funnel-button{min-height:48px;max-width:208px;padding:10px 12px;font-size:13px;text-align:center;line-height:1.4}.canada-lander-header .uk-funnel-button svg{display:none}.canada-lander-footer{padding-bottom:32px}}
+/* The global fixed mobile navigation reserves space on body. These five pages have their own in-flow header. */
+body:has(.canada-lander-shell){padding-top:0!important}
+/* On phones, keep the offer, contact action and agent proof together before the collage. */
+@media(max-width:760px){.canada-lander-shell .campaign-intro{display:flex;flex-direction:column}.canada-lander-shell .campaign-intro>.california-lifestyle-collage{order:1}}

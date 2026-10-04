@@ -1,0 +1,882 @@
+{
+  "agoura-hills-ca": {
+    "city": "Agoura Hills",
+    "src": "/city/los-angeles-county/agoura-hills-ca.webp",
+    "alt": "Local view of Agoura Hills, Los Angeles County, California",
+    "attractionLabel": "Agoura Hills",
+    "creator": "Arspickles17 at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agouravista.jpg"
+  },
+  "alhambra-ca": {
+    "city": "Alhambra",
+    "src": "/city/los-angeles-county/alhambra-ca.webp",
+    "alt": "Local view of Alhambra, Los Angeles County, California",
+    "attractionLabel": "Alhambra",
+    "creator": "Jey0h ( talk )",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alhambra,_CA.jpg"
+  },
+  "arcadia-ca": {
+    "city": "Arcadia",
+    "src": "/city/los-angeles-county/arcadia-ca.webp",
+    "alt": "Local view of Arcadia, Los Angeles County, California",
+    "attractionLabel": "Arcadia",
+    "creator": "Esun",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arcadia_Peahen_1.jpg"
+  },
+  "artesia-ca": {
+    "city": "Artesia",
+    "src": "/city/los-angeles-county/artesia-ca.webp",
+    "alt": "Local view of Artesia, Los Angeles County, California",
+    "attractionLabel": "Artesia",
+    "creator": "Ganeshk",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artesia_20060708_01.JPG"
+  },
+  "avalon-ca": {
+    "city": "Avalon",
+    "src": "/city/los-angeles-county/avalon-ca.webp",
+    "alt": "Local view of Avalon, Los Angeles County, California",
+    "attractionLabel": "Avalon",
+    "creator": "Elena.laps",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Avalon_Harbor_from_the_Chimes_Tower.jpg"
+  },
+  "azusa-ca": {
+    "city": "Azusa",
+    "src": "/city/los-angeles-county/azusa-ca.webp",
+    "alt": "Local view of Azusa, Los Angeles County, California",
+    "attractionLabel": "Azusa",
+    "creator": "Los Angeles",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azusa_City_Hall.jpg"
+  },
+  "baldwin-park-ca": {
+    "city": "Baldwin Park",
+    "src": "/city/los-angeles-county/baldwin-park-ca.webp",
+    "alt": "Local view of Baldwin Park, Los Angeles County, California",
+    "attractionLabel": "Baldwin Park",
+    "creator": "ASDFGH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baldwin_Park_City_Hall_Complex.JPG"
+  },
+  "bell-ca": {
+    "city": "Bell",
+    "src": "/city/los-angeles-county/bell-ca.webp",
+    "alt": "Local view of Bell, Los Angeles County, California",
+    "attractionLabel": "Bell",
+    "creator": "Justefrain",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BellMontageCA.jpg"
+  },
+  "bell-gardens-ca": {
+    "city": "Bell Gardens",
+    "src": "/city/los-angeles-county/bell-gardens-ca.webp",
+    "alt": "Local view of Bell Gardens, Los Angeles County, California",
+    "attractionLabel": "Veterans Park",
+    "creator": "Northwalker",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Veterans_Park_Bell_Gardens_CA_1.jpg"
+  },
+  "bellflower-ca": {
+    "city": "Bellflower",
+    "src": "/city/los-angeles-county/bellflower-ca.webp",
+    "alt": "Local view of Bellflower, Los Angeles County, California",
+    "attractionLabel": "Bellflower",
+    "creator": "YonderStone",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bellflower,_CA_City_Hall.jpg"
+  },
+  "beverly-hills-ca": {
+    "city": "Beverly Hills",
+    "src": "/city/los-angeles-county/beverly-hills-ca.webp",
+    "alt": "Local view of Beverly Hills, Los Angeles County, California",
+    "attractionLabel": "Beverly Hills",
+    "creator": "Tony Hisgett from Birmingham, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beverly_Wilshire_Hotel_(15676919512).jpg"
+  },
+  "bradbury-ca": {
+    "city": "Bradbury",
+    "src": "/city/los-angeles-county/bradbury-ca.webp",
+    "alt": "Local view of Bradbury, Los Angeles County, California",
+    "attractionLabel": "Bradbury",
+    "creator": "Fruitianslip",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bradbury_CA_sign.jpg"
+  },
+  "burbank-ca": {
+    "city": "Burbank",
+    "src": "/city/los-angeles-county/burbank-ca.webp",
+    "alt": "Local view of Burbank, Los Angeles County, California",
+    "attractionLabel": "Burbank",
+    "creator": "Junkyardsparkle",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burbank_media_district_from_Griffith_Park_2015-11-07.jpg"
+  },
+  "calabasas-ca": {
+    "city": "Calabasas",
+    "src": "/city/los-angeles-county/calabasas-ca.webp",
+    "alt": "Local view of Calabasas, Los Angeles County, California",
+    "attractionLabel": "Calabasas",
+    "creator": "brewbooks",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Airborne_over_Calabasas,_California.jpg"
+  },
+  "carson-ca": {
+    "city": "Carson",
+    "src": "/city/los-angeles-county/carson-ca.webp",
+    "alt": "Local view of Carson, Los Angeles County, California",
+    "attractionLabel": "Carson",
+    "creator": "The Front Page Online",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carson_city_hall.jpg"
+  },
+  "cerritos-ca": {
+    "city": "Cerritos",
+    "src": "/city/los-angeles-county/cerritos-ca.webp",
+    "alt": "Local view of Cerritos, Los Angeles County, California",
+    "attractionLabel": "Cerritos",
+    "creator": "The original uploader was AllyUnion at English Wikipedia .",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerritos_Library_1.jpg"
+  },
+  "claremont-ca": {
+    "city": "Claremont",
+    "src": "/city/los-angeles-county/claremont-ca.webp",
+    "alt": "Local view of Claremont, Los Angeles County, California",
+    "attractionLabel": "Claremont",
+    "creator": "Cliff Hutson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnegie_Library,_Claremont_CA.jpg"
+  },
+  "commerce-ca": {
+    "city": "Commerce",
+    "src": "/city/los-angeles-county/commerce-ca.webp",
+    "alt": "Local view of Commerce, Los Angeles County, California",
+    "attractionLabel": "Commerce",
+    "creator": "Justefrain",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CommerceMontageCA.jpg"
+  },
+  "compton-ca": {
+    "city": "Compton",
+    "src": "/city/los-angeles-county/compton-ca.webp",
+    "alt": "Local view of Compton, Los Angeles County, California",
+    "attractionLabel": "Compton",
+    "creator": "Epolk at English Wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compton_martin_luther_king_monument.jpg"
+  },
+  "covina-ca": {
+    "city": "Covina",
+    "src": "/city/los-angeles-county/covina-ca.webp",
+    "alt": "Local view of Covina, Los Angeles County, California",
+    "attractionLabel": "Covina",
+    "creator": "ASDFGH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covina_Downtown.jpg"
+  },
+  "cudahy-ca": {
+    "city": "Cudahy",
+    "src": "/city/los-angeles-county/cudahy-ca.webp",
+    "alt": "Local view of Cudahy, Los Angeles County, California",
+    "attractionLabel": "Cudahy Library",
+    "creator": "ShticktatorTal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cudahy_Library_(1).png"
+  },
+  "culver-city-ca": {
+    "city": "Culver City",
+    "src": "/city/los-angeles-county/culver-city-ca.webp",
+    "alt": "Local view of Culver City, Los Angeles County, California",
+    "attractionLabel": "Culver City",
+    "creator": "Jengod",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Culver_City_sign_at_Culver_Pointe_offices.jpg"
+  },
+  "diamond-bar-ca": {
+    "city": "Diamond Bar",
+    "src": "/city/los-angeles-county/diamond-bar-ca.webp",
+    "alt": "Local view of Diamond Bar, Los Angeles County, California",
+    "attractionLabel": "Diamond Bar",
+    "creator": "Thebluewriter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamond_Bar_City_Hills.jpg"
+  },
+  "downey-ca": {
+    "city": "Downey",
+    "src": "/city/los-angeles-county/downey-ca.webp",
+    "alt": "Local view of Downey, Los Angeles County, California",
+    "attractionLabel": "Downey",
+    "creator": "Rafajs77 at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Downey_City_Hall.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downey_City_Hall.jpg"
+  },
+  "duarte-ca": {
+    "city": "Duarte",
+    "src": "/city/los-angeles-county/duarte-ca.webp",
+    "alt": "Local view of Duarte, Los Angeles County, California",
+    "attractionLabel": "Duarte",
+    "creator": "w:User:matthewstringer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Helford_Hospital_City_of_Hope.jpg"
+  },
+  "el-monte-ca": {
+    "city": "El Monte",
+    "src": "/city/los-angeles-county/el-monte-ca.webp",
+    "alt": "Local view of El Monte, Los Angeles County, California",
+    "attractionLabel": "El Monte",
+    "creator": "Dparranda",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Friendly_El_Monte.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Friendly_El_Monte.jpg"
+  },
+  "el-segundo-ca": {
+    "city": "El Segundo",
+    "src": "/city/los-angeles-county/el-segundo-ca.webp",
+    "alt": "Local view of El Segundo, Los Angeles County, California",
+    "attractionLabel": "El Segundo",
+    "creator": "EEJCC",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_El_Segundo_welcome_sign.jpg"
+  },
+  "gardena-ca": {
+    "city": "Gardena",
+    "src": "/city/los-angeles-county/gardena-ca.webp",
+    "alt": "Local view of Gardena, Los Angeles County, California",
+    "attractionLabel": "Gardena",
+    "creator": "Jengod",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Post_office_Gardena_Boulevard_California_1939_New_Deal_Treasury_Art_Deco_Section_of_Fine_Arts_08.jpg"
+  },
+  "glendale-ca": {
+    "city": "Glendale",
+    "src": "/city/los-angeles-county/glendale-ca.webp",
+    "alt": "Local view of Glendale, Los Angeles County, California",
+    "attractionLabel": "Glendale",
+    "creator": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glendale,_California_skyline.jpg"
+  },
+  "glendora-ca": {
+    "city": "Glendora",
+    "src": "/city/los-angeles-county/glendora-ca.webp",
+    "alt": "Local view of Glendora, Los Angeles County, California",
+    "attractionLabel": "Glendora",
+    "creator": "jaymanuel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glendora_Village.jpg"
+  },
+  "hawaiian-gardens-ca": {
+    "city": "Hawaiian Gardens",
+    "src": "/city/los-angeles-county/hawaiian-gardens-ca.webp",
+    "alt": "Local view of Hawaiian Gardens, Los Angeles County, California",
+    "attractionLabel": "Hawaiian Gardens",
+    "creator": "Laurie Avocado",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Civic_Center_Architecture_(2591799730).jpg"
+  },
+  "hawthorne-ca": {
+    "city": "Hawthorne",
+    "src": "/city/los-angeles-county/hawthorne-ca.webp",
+    "alt": "Local view of Hawthorne, Los Angeles County, California",
+    "attractionLabel": "Hawthorne",
+    "creator": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021-10-05_14_23_34_View_southwest_across_Hawthorne,_Los_Angeles_County,_California_from_an_airplane_heading_toward_Los_Angeles_International_Airport.jpg"
+  },
+  "hermosa-beach-ca": {
+    "city": "Hermosa Beach",
+    "src": "/city/los-angeles-county/hermosa-beach-ca.webp",
+    "alt": "Local view of Hermosa Beach, Los Angeles County, California",
+    "attractionLabel": "Hermosa Beach",
+    "creator": "The original uploader was Estrategy at English Wikipedia .",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hermosa_beach_summer_day.jpg"
+  },
+  "hidden-hills-ca": {
+    "city": "Hidden Hills",
+    "src": "/city/los-angeles-county/hidden-hills-ca.webp",
+    "alt": "Local view of Hidden Hills, Los Angeles County, California",
+    "attractionLabel": "Hidden Hills",
+    "creator": "Unknown author Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Long_Valley_Road_gate,_Hidden_Hills,_California.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long_Valley_Road_gate,_Hidden_Hills,_California.jpg"
+  },
+  "huntington-park-ca": {
+    "city": "Huntington Park",
+    "src": "/city/los-angeles-county/huntington-park-ca.webp",
+    "alt": "Local view of Huntington Park, Los Angeles County, California",
+    "attractionLabel": "Huntington Park",
+    "creator": "Jmiles92",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pacific_Boulevard_and_Clarendon_Avenue.jpg"
+  },
+  "industry-ca": {
+    "city": "Industry",
+    "src": "/city/los-angeles-county/industry-ca.webp",
+    "alt": "Local view of Industry, Los Angeles County, California",
+    "attractionLabel": "Industry",
+    "creator": "Caterpillar84",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_nueva_front_(cropped).jpg"
+  },
+  "inglewood-ca": {
+    "city": "Inglewood",
+    "src": "/city/los-angeles-county/inglewood-ca.webp",
+    "alt": "Local view of Inglewood, Los Angeles County, California",
+    "attractionLabel": "Inglewood",
+    "creator": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inglewood,_California_(14331081570).jpg"
+  },
+  "irwindale-ca": {
+    "city": "Irwindale",
+    "src": "/city/los-angeles-county/irwindale-ca.webp",
+    "alt": "Local view of Irwindale, Los Angeles County, California",
+    "attractionLabel": "Irwindale",
+    "creator": "Shinku Hisaki at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IrwindaleSpeedway.JPG"
+  },
+  "la-canada-flintridge-ca": {
+    "city": "La Canada Flintridge",
+    "src": "/city/los-angeles-county/la-canada-flintridge-ca.webp",
+    "alt": "Local view of La Canada Flintridge, Los Angeles County, California",
+    "attractionLabel": "La Canada Flintridge",
+    "creator": "Doc Searls from Santa Barbara, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Ca%C3%B1ada_Flintridge_%26_the_210_Freeway.jpg"
+  },
+  "la-habra-heights-ca": {
+    "city": "La Habra Heights",
+    "src": "/city/los-angeles-county/la-habra-heights-ca.webp",
+    "alt": "Local view of La Habra Heights, Los Angeles County, California",
+    "attractionLabel": "La Habra Heights",
+    "creator": "Sharon Mollerus",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Habra_Heights.jpg"
+  },
+  "la-mirada-ca": {
+    "city": "La Mirada",
+    "src": "/city/los-angeles-county/la-mirada-ca.webp",
+    "alt": "Local view of La Mirada, Los Angeles County, California",
+    "attractionLabel": "Neff Historic House",
+    "creator": "Dwarfroe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neff_Historic_House_La_Mirada_01.jpg"
+  },
+  "la-puente-ca": {
+    "city": "La Puente",
+    "src": "/city/los-angeles-county/la-puente-ca.webp",
+    "alt": "Local view of La Puente, Los Angeles County, California",
+    "attractionLabel": "La Puente",
+    "creator": "Los Angeles",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Star_Theater,_La_Puente.JPG"
+  },
+  "la-verne-ca": {
+    "city": "La Verne",
+    "src": "/city/los-angeles-county/la-verne-ca.webp",
+    "alt": "Local view of La Verne, Los Angeles County, California",
+    "attractionLabel": "La Verne",
+    "creator": "Sherry Venegas from La Verne, CA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Route_66_in_La_Verne_(3733009851).jpg"
+  },
+  "lakewood-ca": {
+    "city": "Lakewood",
+    "src": "/city/los-angeles-county/lakewood-ca.webp",
+    "alt": "Local view of Lakewood, Los Angeles County, California",
+    "attractionLabel": "Lakewood",
+    "creator": "Proarte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lakewood-City-Hall-2014.jpg"
+  },
+  "lancaster-ca": {
+    "city": "Lancaster",
+    "src": "/city/los-angeles-county/lancaster-ca.webp",
+    "alt": "Local view of Lancaster, Los Angeles County, California",
+    "attractionLabel": "Lancaster",
+    "creator": "USEPA Environmental-Protection-Agency",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:October_2012_-_Overall_Excellence_in_Smart_Growth_2012-_Lancaster,_CA,_The_BLVD_Transformation_(8634270433).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:October_2012_-_Overall_Excellence_in_Smart_Growth_2012-_Lancaster,_CA,_The_BLVD_Transformation_(8634270433).jpg"
+  },
+  "lawndale-ca": {
+    "city": "Lawndale",
+    "src": "/city/los-angeles-county/lawndale-ca.webp",
+    "alt": "Local view of Lawndale, Los Angeles County, California",
+    "attractionLabel": "Lawndale",
+    "creator": "F ASTILY",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lawndale,_California_1_2018-05-21.jpg"
+  },
+  "lomita-ca": {
+    "city": "Lomita",
+    "src": "/city/los-angeles-county/lomita-ca.webp",
+    "alt": "Local view of Lomita, Los Angeles County, California",
+    "attractionLabel": "Lomita",
+    "creator": "Tracie Hall from Orange County, us",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lomita_Railroad_Museum_building,_May_2018.jpg"
+  },
+  "long-beach-ca": {
+    "city": "Long Beach",
+    "src": "/city/los-angeles-county/long-beach-ca.webp",
+    "alt": "Local view of Long Beach, Los Angeles County, California",
+    "attractionLabel": "Long Beach Skyline",
+    "creator": "JD Lasica from Pleasanton, CA, US",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-Beach-skyline-at-dusk_(21611595655).jpg"
+  },
+  "los-angeles-ca": {
+    "city": "Los Angeles",
+    "src": "/city/los-angeles-county/los-angeles-ca.webp",
+    "alt": "Local view of Los Angeles, Los Angeles County, California",
+    "attractionLabel": "Los Angeles",
+    "creator": "Gnaphron",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hollywood_sign_(8485145044).jpg"
+  },
+  "lynwood-ca": {
+    "city": "Lynwood",
+    "src": "/city/los-angeles-county/lynwood-ca.webp",
+    "alt": "Local view of Lynwood, Los Angeles County, California",
+    "attractionLabel": "Lynwood",
+    "creator": "Octaviogonz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LHS3rdfloorview.jpg"
+  },
+  "malibu-ca": {
+    "city": "Malibu",
+    "src": "/city/los-angeles-county/malibu-ca.webp",
+    "alt": "Local view of Malibu, Los Angeles County, California",
+    "attractionLabel": "Malibu",
+    "creator": "The original uploader was Tillman at English Wikipedia .",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MalibuAir.jpg"
+  },
+  "manhattan-beach-ca": {
+    "city": "Manhattan Beach",
+    "src": "/city/los-angeles-county/manhattan-beach-ca.webp",
+    "alt": "Local view of Manhattan Beach, Los Angeles County, California",
+    "attractionLabel": "Manhattan Beach",
+    "creator": "Evanthomas1 at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Manhattan_Pier.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manhattan_Pier.jpg"
+  },
+  "maywood-ca": {
+    "city": "Maywood",
+    "src": "/city/los-angeles-county/maywood-ca.webp",
+    "alt": "Local view of Maywood, Los Angeles County, California",
+    "attractionLabel": "Maywood",
+    "creator": "Justefrain",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MaywoodMontageCA.jpg"
+  },
+  "monrovia-ca": {
+    "city": "Monrovia",
+    "src": "/city/los-angeles-county/monrovia-ca.webp",
+    "alt": "Local view of Monrovia, Los Angeles County, California",
+    "attractionLabel": "Monrovia",
+    "creator": "David Jordan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monrovia_CA_San_Gabriel_Mountains_i210.JPG"
+  },
+  "montebello-ca": {
+    "city": "Montebello",
+    "src": "/city/los-angeles-county/montebello-ca.webp",
+    "alt": "Local view of Montebello, Los Angeles County, California",
+    "attractionLabel": "Montebello",
+    "creator": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montebello_Genocide_Memorial,_July_2023_(6).jpg"
+  },
+  "monterey-park-ca": {
+    "city": "Monterey Park",
+    "src": "/city/los-angeles-county/monterey-park-ca.webp",
+    "alt": "Local view of Monterey Park, Los Angeles County, California",
+    "attractionLabel": "Monterey Park",
+    "creator": "King of Hearts",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monterey_Park_January_2013_002.jpg"
+  },
+  "norwalk-ca": {
+    "city": "Norwalk",
+    "src": "/city/los-angeles-county/norwalk-ca.webp",
+    "alt": "Local view of Norwalk, Los Angeles County, California",
+    "attractionLabel": "Norwalk",
+    "creator": "Northwalker",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norwalk_Town_Square_Shopping_Center_sign_in_Norwalk_California.jpg"
+  },
+  "palmdale-ca": {
+    "city": "Palmdale",
+    "src": "/city/los-angeles-county/palmdale-ca.webp",
+    "alt": "Local view of Palmdale, Los Angeles County, California",
+    "attractionLabel": "Palmdale",
+    "creator": "G-BDXH",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palmdale,_CA.jpg"
+  },
+  "palos-verdes-estates-ca": {
+    "city": "Palos Verdes Estates",
+    "src": "/city/los-angeles-county/palos-verdes-estates-ca.webp",
+    "alt": "Local view of Palos Verdes Estates, Los Angeles County, California",
+    "attractionLabel": "Palos Verdes Estates",
+    "creator": "Abby Lanes",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malaga_Cove_by_Abby_Lanes.jpg"
+  },
+  "paramount-ca": {
+    "city": "Paramount",
+    "src": "/city/los-angeles-county/paramount-ca.webp",
+    "alt": "Local view of Paramount, Los Angeles County, California",
+    "attractionLabel": "Paramount",
+    "creator": "peter boy12qq12",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paramount,_CA,_USA_-_panoramio.jpg"
+  },
+  "pasadena-ca": {
+    "city": "Pasadena",
+    "src": "/city/los-angeles-county/pasadena-ca.webp",
+    "alt": "Local view of Pasadena, Los Angeles County, California",
+    "attractionLabel": "Pasadena",
+    "creator": "David Wakely",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasadena_City_Hall_David_Wakely_(cropped).jpg"
+  },
+  "pico-rivera-ca": {
+    "city": "Pico Rivera",
+    "src": "/city/los-angeles-county/pico-rivera-ca.webp",
+    "alt": "Local view of Pico Rivera, Los Angeles County, California",
+    "attractionLabel": "Pico Rivera",
+    "creator": "Trackinfo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PicoRiveraCityHall.JPG"
+  },
+  "pomona-ca": {
+    "city": "Pomona",
+    "src": "/city/los-angeles-county/pomona-ca.webp",
+    "alt": "Local view of Pomona, Los Angeles County, California",
+    "attractionLabel": "Pomona",
+    "creator": "kl91711",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Pomona_04_-_panoramio.jpg"
+  },
+  "rancho-palos-verdes-ca": {
+    "city": "Rancho Palos Verdes",
+    "src": "/city/los-angeles-county/rancho-palos-verdes-ca.webp",
+    "alt": "Local view of Rancho Palos Verdes, Los Angeles County, California",
+    "attractionLabel": "Rancho Palos Verdes",
+    "creator": "Cedward Brice",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rancho_Palos_Verdes_seascape.jpg"
+  },
+  "redondo-beach-ca": {
+    "city": "Redondo Beach",
+    "src": "/city/los-angeles-county/redondo-beach-ca.webp",
+    "alt": "Local view of Redondo Beach, Los Angeles County, California",
+    "attractionLabel": "Redondo Beach",
+    "creator": "Funhistory at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:RedondoBeachKingHarborSign.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RedondoBeachKingHarborSign.jpg"
+  },
+  "rolling-hills-ca": {
+    "city": "Rolling Hills",
+    "src": "/city/los-angeles-county/rolling-hills-ca.webp",
+    "alt": "Local view of Rolling Hills, Los Angeles County, California",
+    "attractionLabel": "Rolling Hills Main Gate",
+    "creator": "Tichnor Brothers, Publisher",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rolling_Hills_General_Store,_Corner_Crenshaw_and_Palos_Verdes_Drive_North_(near_Main_Gate_House_to)_Rolling_Hills,_Calif_(83802).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rolling_Hills_General_Store,_Corner_Crenshaw_and_Palos_Verdes_Drive_North_(near_Main_Gate_House_to)_Rolling_Hills,_Calif_(83802).jpg"
+  },
+  "rolling-hills-estates-ca": {
+    "city": "Rolling Hills Estates",
+    "src": "/city/los-angeles-county/rolling-hills-estates-ca.webp",
+    "alt": "Local view of Rolling Hills Estates, Los Angeles County, California",
+    "attractionLabel": "Rolling Hills Estates",
+    "creator": "Clotee Allochuku",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palos_Verdes_Street_Fair_%26_Music_Festival_2011.jpg"
+  },
+  "rosemead-ca": {
+    "city": "Rosemead",
+    "src": "/city/los-angeles-county/rosemead-ca.webp",
+    "alt": "Local view of Rosemead, Los Angeles County, California",
+    "attractionLabel": "Rosemead",
+    "creator": "Ghostgrrrl626",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dinsmoor_Heritage_House_and_Museum_Rosemead_California.jpg"
+  },
+  "san-dimas-ca": {
+    "city": "San Dimas",
+    "src": "/city/los-angeles-county/san-dimas-ca.webp",
+    "alt": "Local view of San Dimas, Los Angeles County, California",
+    "attractionLabel": "San Dimas",
+    "creator": "YonderStone",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Dimas_City_Hall.jpg"
+  },
+  "san-fernando-ca": {
+    "city": "San Fernando",
+    "src": "/city/los-angeles-county/san-fernando-ca.webp",
+    "alt": "Local view of San Fernando, Los Angeles County, California",
+    "attractionLabel": "San Fernando",
+    "creator": "Cbl62 at English Wikipedia ( Original text: Cbl62 ( talk ) )",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Rosa_Catholic_Church,_San_Fernando,_CA.JPG"
+  },
+  "san-gabriel-ca": {
+    "city": "San Gabriel",
+    "src": "/city/los-angeles-county/san-gabriel-ca.webp",
+    "alt": "Local view of San Gabriel, Los Angeles County, California",
+    "attractionLabel": "San Gabriel",
+    "creator": "Wikimedia Commons contributor",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:I_Like_a_Place_with_Benches_(6315511083)_(cropped).jpg"
+  },
+  "san-marino-ca": {
+    "city": "San Marino",
+    "src": "/city/los-angeles-county/san-marino-ca.webp",
+    "alt": "Local view of San Marino, Los Angeles County, California",
+    "attractionLabel": "San Marino",
+    "creator": "sebi ryffel from Los Angeles",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rose_Garden_Temple_of_Love_at_Huntington_Library.jpg"
+  },
+  "santa-clarita-ca": {
+    "city": "Santa Clarita",
+    "src": "/city/los-angeles-county/santa-clarita-ca.webp",
+    "alt": "Local view of Santa Clarita, Los Angeles County, California",
+    "attractionLabel": "Santa Clarita",
+    "creator": "Mrrxx",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_in_front_of_the_Edwards_Theater,_at_Towncenter_and_Theater_Drives_in_Santa_Clarita_%E2%80%94_Los_Angeles_County,_year_2000.jpg"
+  },
+  "santa-fe-springs-ca": {
+    "city": "Santa Fe Springs",
+    "src": "/city/los-angeles-county/santa-fe-springs-ca.webp",
+    "alt": "Local view of Santa Fe Springs, Los Angeles County, California",
+    "attractionLabel": "Santa Fe Springs",
+    "creator": "Northwalker",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Lake_Park,_Santa_Fe_Springs_CA_viewing_field.jpg"
+  },
+  "santa-monica-ca": {
+    "city": "Santa Monica",
+    "src": "/city/los-angeles-county/santa-monica-ca.webp",
+    "alt": "Local view of Santa Monica, Los Angeles County, California",
+    "attractionLabel": "Santa Monica",
+    "creator": "User:User2004",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Casa_del_Mar_Santa_Monica_(cropped).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_del_Mar_Santa_Monica_(cropped).jpg"
+  },
+  "sierra-madre-ca": {
+    "city": "Sierra Madre",
+    "src": "/city/los-angeles-county/sierra-madre-ca.webp",
+    "alt": "Local view of Sierra Madre, Los Angeles County, California",
+    "attractionLabel": "Sierra Madre",
+    "creator": "Telecineguy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_North_Church,_Sierra_Madre,_California.jpg"
+  },
+  "signal-hill-ca": {
+    "city": "Signal Hill",
+    "src": "/city/los-angeles-county/signal-hill-ca.webp",
+    "alt": "Local view of Signal Hill, Los Angeles County, California",
+    "attractionLabel": "Signal Hill",
+    "creator": "Mike Greene",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SignalHill.jpg"
+  },
+  "south-el-monte-ca": {
+    "city": "South El Monte",
+    "src": "/city/los-angeles-county/south-el-monte-ca.webp",
+    "alt": "Local view of South El Monte, Los Angeles County, California",
+    "attractionLabel": "San Gabriel River at South El Monte",
+    "creator": "Z3lvs",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Gabriel_River_from_Peck_Road_Bridge,_South_El_Monte_%26_Industry,_California.jpg"
+  },
+  "south-gate-ca": {
+    "city": "South Gate",
+    "src": "/city/los-angeles-county/south-gate-ca.webp",
+    "alt": "Local view of South Gate, Los Angeles County, California",
+    "attractionLabel": "Historic South Gate",
+    "creator": "John Margolies",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hoot_Owl_Cafe_South_Gate_Calif.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoot_Owl_Cafe_South_Gate_Calif.jpg"
+  },
+  "south-pasadena-ca": {
+    "city": "South Pasadena",
+    "src": "/city/los-angeles-county/south-pasadena-ca.webp",
+    "alt": "Local view of South Pasadena, Los Angeles County, California",
+    "attractionLabel": "South Pasadena",
+    "creator": "Wehwalt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Pasadena_Middle_School_(28_July_2009)_(cropped).jpg"
+  },
+  "temple-city-ca": {
+    "city": "Temple City",
+    "src": "/city/los-angeles-county/temple-city-ca.webp",
+    "alt": "Local view of Temple City, Los Angeles County, California",
+    "attractionLabel": "Temple City",
+    "creator": "Deusexes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_City_Park.jpg"
+  },
+  "torrance-ca": {
+    "city": "Torrance",
+    "src": "/city/los-angeles-county/torrance-ca.webp",
+    "alt": "Local view of Torrance, Los Angeles County, California",
+    "attractionLabel": "Torrance",
+    "creator": "Thurifer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torrance_CA_City_Hall.jpg"
+  },
+  "vernon-ca": {
+    "city": "Vernon",
+    "src": "/city/los-angeles-county/vernon-ca.webp",
+    "alt": "Local view of Vernon, Los Angeles County, California",
+    "attractionLabel": "Vernon",
+    "creator": "formulanone",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VernonCA-IndustrialWarehouseArea_(35948285755).jpg"
+  },
+  "walnut-ca": {
+    "city": "Walnut",
+    "src": "/city/los-angeles-county/walnut-ca.webp",
+    "alt": "Local view of Walnut, Los Angeles County, California",
+    "attractionLabel": "Walnut",
+    "creator": "kl91711",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walnut_06_-_panoramio.jpg"
+  },
+  "west-covina-ca": {
+    "city": "West Covina",
+    "src": "/city/los-angeles-county/west-covina-ca.webp",
+    "alt": "Local view of West Covina, Los Angeles County, California",
+    "attractionLabel": "West Covina",
+    "creator": "ASDFGH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Covina_Civic_Center.jpg"
+  },
+  "west-hollywood-ca": {
+    "city": "West Hollywood",
+    "src": "/city/los-angeles-county/west-hollywood-ca.webp",
+    "alt": "Local view of West Hollywood, Los Angeles County, California",
+    "attractionLabel": "West Hollywood",
+    "creator": "MikeJiroch",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Tower,_8358_Sunset_Blvd._West_Hollywood_2383.jpg"
+  },
+  "westlake-village-ca": {
+    "city": "Westlake Village",
+    "src": "/city/los-angeles-county/westlake-village-ca.webp",
+    "alt": "Local view of Westlake Village, Los Angeles County, California",
+    "attractionLabel": "Westlake Village",
+    "creator": "Niceley",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial-of-Westlake-Lake-in-Westlake-Village.jpg"
+  },
+  "whittier-ca": {
+    "city": "Whittier",
+    "src": "/city/los-angeles-county/whittier-ca.webp",
+    "alt": "Local view of Whittier, Los Angeles County, California",
+    "attractionLabel": "Whittier",
+    "creator": "Northwalker",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenleaf_Street_in_Whittier_California.jpg"
+  }
+}

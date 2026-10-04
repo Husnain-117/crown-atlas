@@ -1,0 +1,1178 @@
+/* ============================================================
+   Crown Coastal Homes — Mobile CSS Override v1.0
+   Applies ONLY to screens <= 768px wide.
+   Desktop layout (> 768px) is completely unchanged.
+
+   Import order: last line of src/styles/globals.css
+     @import './crown-coastal-mobile.css';
+
+   Selector strategy:
+     - No CSS Modules hashing in this project (plain Tailwind)
+     - Element selectors used where stable (header, footer, main)
+     - Utility class substrings used via [class*="..."] where needed
+     - All rules use !important to override Tailwind + inline styles
+   ============================================================ */
+
+@media (max-width: 770px) {
+
+  /* ──────────────────────────────────────────────────────────
+     14 · GLOBAL RESETS  (write first — foundational)
+     ────────────────────────────────────────────────────────── */
+  body {
+    overflow-x: hidden !important;
+    padding-bottom: 64px !important;
+    /* reserve space for fixed bottom nav */
+    -webkit-text-size-adjust: 100% !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     13 · TOUCH TARGETS  (WCAG 2.5.5 — 44 × 44 px minimum)
+     ────────────────────────────────────────────────────────── */
+  a,
+  button,
+  [role="button"],
+  input[type="submit"],
+  select {
+    min-height: 44px !important;
+    min-width: 44px !important;
+  }
+
+  /* Exception: Checkboxes should remain small for better form aesthetics */
+  button[data-slot="checkbox"],
+  [data-slot="checkbox"] {
+    min-height: unset !important;
+    min-width: unset !important;
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     01 · TOP NAVIGATION BAR
+     Target: logo LEFT, two rounded-square buttons RIGHT
+     
+     NOTE: .site-header is excluded from these rules.
+     The new ProfessionalMobileHeader component uses .site-header
+     and is styled in mobile-header-professional.css
+     ────────────────────────────────────────────────────────── */
+
+  /* Header visibility and controls are owned by the current navbar components. */
+
+  /* ──────────────────────────────────────────────────────────
+     11 · FIXED BOTTOM NAVIGATION BAR  (CSS part)
+         JS part: src/components/layout/mobile-bottom-nav.tsx
+     ────────────────────────────────────────────────────────── */
+  #cc-mobile-bottom-nav {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 99999 !important;
+    background: #ffffff !important;
+    border-top: 1px solid #e2dfd8 !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    height: 64px !important;
+    box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.10) !important;
+    padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+  }
+
+  .bnav-item {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 2px !important;
+    flex: 1 !important;
+    padding: 8px 0 !important;
+    text-decoration: none !important;
+    color: #6b7280 !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    border-top: 2.5px solid transparent !important;
+    transition: color 0.15s ease, border-top-color 0.15s ease !important;
+    /* override the 44px min-height from touch targets rule */
+    min-height: unset !important;
+    min-width: unset !important;
+  }
+
+  .bnav-icon {
+    display: block !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .bnav-label {
+    font-size: 10px !important;
+    font-family: var(--font-inter, var(--font-geist-sans, 'DM Sans', sans-serif)) !important;
+    display: block !important;
+    line-height: 1 !important;
+  }
+
+  .bnav-item.active,
+  .bnav-item:hover {
+    border-top-color: #c9a84c !important;
+    color: #0f2340 !important;
+  }
+
+  .bnav-cta {
+    width: 52px !important;
+    height: 52px !important;
+    border-radius: 50% !important;
+    background: var(--coastal-primary) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none !important;
+    margin-top: -10px !important;
+    flex-shrink: 0 !important;
+    box-shadow: 0 4px 12px rgba(15, 35, 64, 0.35) !important;
+    /* override touch targets */
+    min-height: unset !important;
+    min-width: unset !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     02 · HERO / CAROUSEL SECTION
+     ────────────────────────────────────────────────────────── */
+
+  /* Hero section buttons - improve visibility in dark mode */
+  /* View Homes button - keep gold/yellow background */
+  a[href="/properties"] button {
+    background: #C9A84C !important;
+    color: #0F2340 !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 12px rgba(201, 168, 76, 0.3) !important;
+  }
+
+  /* Schedule Tour button - improve contrast in dark mode */
+  a[href="/contact"] button {
+    background: rgba(255, 255, 255, 0.25) !important;
+    border: 2px solid rgba(255, 255, 255, 0.5) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    backdrop-filter: blur(12px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  /* Hover states */
+  a[href="/properties"] button:hover {
+    background: #b09342 !important;
+    box-shadow: 0 6px 16px rgba(201, 168, 76, 0.4) !important;
+  }
+
+  a[href="/contact"] button:hover {
+    background: rgba(255, 255, 255, 0.35) !important;
+    border-color: rgba(255, 255, 255, 0.6) !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     04 · STATS SECTION (LEGACY - REMOVED)
+     New styles handled via StatsStrip component
+     ────────────────────────────────────────────────────────── */
+
+  /* Autocomplete dropdown — constrain to viewport */
+  [class*="z-\[99999\]"] {
+    width: calc(100vw - 64px) !important;
+    min-width: unset !important;
+    left: 0 !important;
+    top: calc(100% + 4px) !important;
+    max-height: 260px !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     SEARCH CARD & PILL FILTERS (NEW)
+     ────────────────────────────────────────────────────────── */
+  .search-card {
+    border-radius: 20px !important;
+    padding: 16px !important;
+    background: #ffffff !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .search-card form {
+    margin-bottom: 12px !important;
+  }
+
+  /* Hide scrollbar on pills */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     STATS STRIP (NEW)
+     ────────────────────────────────────────────────────────── */
+  .stats-strip {
+    border: none !important;
+    border-top: 1px solid #f3f4f6 !important;
+  }
+
+  .stats-strip>div {
+    padding: 16px 8px !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     05 · PROPERTY CARDS
+     ────────────────────────────────────────────────────────── */
+
+  /* Homepage horizontal scroll carousel — single full-width cards */
+  main .hide-scrollbar {
+    gap: 20px !important;
+    padding: 0 16px 20px !important;
+    scroll-snap-type: x mandatory !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  main .hide-scrollbar>div {
+    min-width: calc(100vw - 64px) !important;
+    max-width: calc(100vw - 64px) !important;
+    flex-shrink: 0 !important;
+    scroll-snap-align: start !important;
+    margin-right: 0 !important;
+  }
+
+  /* Specific fix for small screens (350px width like iPhone SE) */
+  @media (max-width: 380px) {
+    main .hide-scrollbar {
+      gap: 16px !important;
+      padding: 0 12px 16px !important;
+    }
+    
+    main .hide-scrollbar>div {
+      min-width: calc(100vw - 40px) !important;
+      max-width: calc(100vw - 40px) !important;
+    }
+  }
+
+  /* Card wrapper */
+  .hover-lift {
+    border-radius: 14px !important;
+    border: 1px solid var(--coastal-border) !important;
+    overflow: hidden !important;
+    background: var(--surface) !important;
+    box-shadow: none !important;
+    transition: all 0.25s ease !important;
+  }
+
+  .hover-lift:active {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  /* Card image container */
+  .hover-lift [class*="h-64"] {
+    height: 160px !important;
+    /* Shorter per design */
+  }
+
+  /* Status badge — FOR SALE / FOR RENT */
+  .hover-lift [class*="top-3"][class*="left-3"],
+  .hover-lift [class*="top-6"][class*="left-6"] {
+    top: 8px !important;
+    left: 8px !important;
+  }
+
+  .hover-lift [class*="top-3"][class*="left-3"]>div:first-child,
+  .hover-lift [class*="top-3"][class*="left-3"]>div:nth-child(2),
+  .hover-lift [class*="top-6"][class*="left-6"]>div:first-child,
+  .hover-lift [class*="top-6"][class*="left-6"]>div:nth-child(2) {
+    font-size: 0.75rem !important;
+    padding: 8px 16px !important;
+    border-radius: 6px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em !important;
+    line-height: 1.2 !important;
+  }
+
+  .hover-lift [class*="top-3"][class*="left-3"] span,
+  .hover-lift [class*="top-6"][class*="left-6"] span {
+    font-size: 0.5rem !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.01em !important;
+  }
+
+  .hover-lift [class*="top-3"][class*="left-3"]>div:nth-child(3),
+  .hover-lift [class*="top-6"][class*="left-6"]>div:nth-child(3) {
+    font-size: 0.5rem !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+  }
+
+  /* Heart + Compare icon buttons */
+  .hover-lift [class*="top-6"][class*="right-6"] {
+    top: 12px !important;
+    right: 12px !important;
+    gap: 6px !important;
+  }
+
+  .hover-lift [class*="top-6"][class*="right-6"] button {
+    width: 32px !important;
+    height: 32px !important;
+    min-height: 32px !important;
+    min-width: 32px !important;
+    border-radius: 8px !important;
+  }
+
+  /* Card content padding */
+  .hover-lift [class*="p-6"] {
+    padding: 16px !important;
+  }
+
+  /* Property title */
+  .hover-lift h3,
+  .hover-lift h3 a {
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 4px !important;
+    color: var(--coastal-text) !important;
+    line-height: 1.3 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+  }
+
+  /* Price */
+  .hover-lift [class*="text-3xl"] {
+    font-family: var(--font-inter, var(--font-geist-sans, 'DM Sans', 'Inter', sans-serif)) !important;
+    font-size: 1.125rem !important;
+    color: var(--coastal-text) !important;
+    font-weight: 700 !important;
+    margin-top: 4px !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Specs row (Beds/Baths/SqFt) */
+  .hover-lift [class*="mt-auto"] {
+    gap: 8px !important;
+    margin-top: 12px !important;
+    border-top: 1px solid var(--coastal-border) !important;
+    padding-top: 12px !important;
+  }
+
+  /* Text inside specs row */
+  .hover-lift [class*="mt-auto"] span {
+    font-size: 0.75rem !important;
+    color: var(--coastal-muted-text) !important;
+  }
+
+  /* CTA buttons section */
+  .hover-lift [class*="mt-4"][class*="flex-col"] {
+    gap: 8px !important;
+    margin-top: 12px !important;
+    padding-top: 0 !important;
+  }
+
+  /* View Details button */
+  .hover-lift [class*="mt-4"]>a:first-child {
+    min-height: 40px !important;
+    border-radius: 8px !important;
+    font-size: 0.8125rem !important;
+    font-weight: 600 !important;
+  }
+
+  /* Book Visit + Talk to Agent row */
+  .hover-lift [class*="mt-4"] [class*="flex"] a {
+    min-height: 40px !important;
+    border-radius: 8px !important;
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     06 · COUNTY GRID
+     ────────────────────────────────────────────────────────── */
+
+  /* Counties section — filter control card */
+  .coastal-section-alt .glass-card>div:first-child {
+    flex-direction: column !important;
+    gap: 16px !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 16px 16px !important;
+  }
+
+  .coastal-section-alt .glass-card [class*="lg:w-64"] {
+    width: 100% !important;
+  }
+
+  /* Region filter pills row — horizontal scroll, no wrap */
+  .coastal-section-alt [class*="flex-wrap"][class*="gap-2"] {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scroll-snap-type: x mandatory !important;
+    scrollbar-width: none !important;
+    padding-bottom: 4px !important;
+    gap: 8px !important;
+  }
+
+  .coastal-section-alt [class*="flex-wrap"][class*="gap-2"]::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .coastal-section-alt [class*="flex-wrap"][class*="gap-2"] button {
+    flex-shrink: 0 !important;
+    white-space: nowrap !important;
+    padding: 8px 16px !important;
+    border-radius: 8px !important;
+    scroll-snap-align: start !important;
+    font-size: 0.8125rem !important;
+    min-height: 44px !important;
+    border: 1px solid #e5e7eb !important;
+  }
+
+  /* Active filter */
+  .coastal-section-alt [class*="flex-wrap"][class*="gap-2"] button[class*="bg-\[var(--coastal-primary)\]"] {
+    background: #0f2a44 !important;
+    color: white !important;
+    border-color: #0f2a44 !important;
+  }
+
+  /* Counties grid — 2 columns on mobile */
+  .coastal-section-alt [class*="xl:grid-cols-3"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
+    padding: 0 16px 24px !important;
+  }
+
+  /* County card structure */
+  .coastal-section-alt .glass-card.hover-lift {
+    border: none !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    height: 110px !important;
+    /* Fixed height for image grid */
+    color: white !important;
+    padding: 0 !important;
+  }
+
+  /* Image height */
+  .coastal-section-alt .glass-card.hover-lift [class*="h-56"] {
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+    inset: 0 !important;
+  }
+
+  .coastal-section-alt .glass-card.hover-lift img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+
+  /* Overlay gradient — lighter so county images stay visible */
+  .coastal-section-alt .glass-card.hover-lift::before {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    background: rgba(15, 42, 68, 0.28) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  /* Text Wrapper above overlay - centered layout */
+  .coastal-section-alt .glass-card.hover-lift [class*="p-5"] {
+    position: absolute !important;
+    inset: 0 !important;
+    padding: 8px !important;
+    z-index: 2 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    background: transparent !important;
+  }
+
+  /* Name tag - responsive sizing, centered */
+  .coastal-section-alt .glass-card.hover-lift h3,
+  .coastal-section-alt .glass-card.hover-lift h3 a {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0 !important;
+    color: #ffffff !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  
+  /* Slightly larger on wider mobile screens */
+  @media (min-width: 400px) and (max-width: 770px) {
+    .coastal-section-alt .glass-card.hover-lift h3,
+    .coastal-section-alt .glass-card.hover-lift h3 a {
+      font-size: 0.8125rem !important;
+    }
+  }
+  
+  /* Popular badge - position on left with margin */
+  .coastal-section-alt .glass-card.hover-lift [class*="top-3"][class*="left-3"] {
+    top: 8px !important;
+    left: 8px !important;
+  }
+  
+  /* Region badge - position on left with margin */
+  .coastal-section-alt .glass-card.hover-lift [class*="rounded-full"] {
+    font-size: 0.625rem !important;
+    padding: 4px 8px !important;
+  }
+
+  /* Hide everything else inside county card */
+  .coastal-section-alt .glass-card.hover-lift p,
+  .coastal-section-alt .glass-card.hover-lift [class*="mb-4"],
+  .coastal-section-alt .glass-card.hover-lift>div>a {
+    display: none !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     07 · SERVICES CARDS
+     ────────────────────────────────────────────────────────── */
+
+  /* Services wrapper */
+  main section.coastal-section-alt:first-of-type {
+    padding: 32px 16px !important;
+  }
+
+  main section.coastal-section-alt:first-of-type [class*="lg:grid-cols-4"] {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    padding: 0 !important;
+  }
+
+  /* Instead of a full card with a side photo, match design requirement
+     "Icon + text list" for services */
+  main section.coastal-section-alt:first-of-type .glass-card {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    padding: 16px !important;
+    min-height: auto !important;
+    border-radius: 12px !important;
+    border: 1px solid #e5e7eb !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    gap: 16px !important;
+  }
+
+  /* Hide the image panel and replace logic visually */
+  main section.coastal-section-alt:first-of-type [class*="h-40"] {
+    display: none !important;
+  }
+
+  /* Fake icon box built off the title wrapper or SVG */
+  main section.coastal-section-alt:first-of-type [class*="flex"][class*="items-center"][class*="gap-3"] {
+    margin-bottom: 0 !important;
+    align-items: flex-start !important;
+  }
+
+  /* Icon wrapper square */
+  main section.coastal-section-alt:first-of-type [class*="flex"][class*="items-center"][class*="gap-3"] svg {
+    width: 24px !important;
+    height: 24px !important;
+    color: #0f2a44 !important;
+  }
+
+  /* Text content area */
+  main section.coastal-section-alt:first-of-type .glass-card>div:not([class*="h-40"]) {
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  /* Service card h3 */
+  main section.coastal-section-alt:first-of-type h3 {
+    font-size: 0.875rem !important;
+    line-height: 1.3 !important;
+    font-weight: 600 !important;
+    color: #1c2a39 !important;
+    margin-bottom: 4px !important;
+  }
+
+  /* Description paragraph — show it back, make it smaller */
+  main section.coastal-section-alt:first-of-type>div>div>div [class*="mb-6"][class*="leading-relaxed"],
+  main section.coastal-section-alt:first-of-type p {
+    display: block !important;
+    font-size: 0.75rem !important;
+    color: #6b7280 !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0 !important;
+  }
+
+  main section.coastal-section-alt:first-of-type ul {
+    display: none !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     08 · TESTIMONIALS
+     ────────────────────────────────────────────────────────── */
+
+  /* Testimonials section */
+  .coastal-section-light [class*="text-center"][class*="mb-10"] {
+    padding: 0 16px !important;
+  }
+
+  /* Testimonial cards now own their responsive layout and typography. */
+
+  /* Contact form blockquote - ensure visibility in dark mode */
+  blockquote[class*="border-l"] {
+    color: #6b7280 !important;
+  }
+
+  /* Dark mode override for contact form blockquote */
+  :root[class*="dark"] blockquote[class*="border-l"],
+  [data-theme="dark"] blockquote[class*="border-l"],
+  .dark blockquote[class*="border-l"] {
+    color: #d1d5db !important;
+  }
+
+  /* Contact form blockquote cite (author name) */
+  blockquote[class*="border-l"] cite {
+    color: #1f2937 !important;
+  }
+
+  /* Dark mode override for cite */
+  :root[class*="dark"] blockquote[class*="border-l"] cite,
+  [data-theme="dark"] blockquote[class*="border-l"] cite,
+  .dark blockquote[class*="border-l"] cite {
+    color: #f3f4f6 !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     09 · CONTACT CTA — footer phone & email links
+     ────────────────────────────────────────────────────────── */
+
+  footer a[href^="tel"] {
+    background: #c9a84c !important;
+    color: #0f2340 !important;
+    font-weight: 700 !important;
+    border-radius: 12px !important;
+    min-height: 48px !important;
+    padding: 12px 16px !important;
+  }
+
+  footer a[href^="mailto"] {
+    background: rgba(255, 255, 255, 0.12) !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.30) !important;
+    color: #ffffff !important;
+    border-radius: 12px !important;
+    min-height: 48px !important;
+    padding: 12px 16px !important;
+  }
+
+  /* Contact cards row inside footer */
+  footer [class*="space-y-4"] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     10 · FOOTER
+     ────────────────────────────────────────────────────────── */
+
+  footer {
+    padding: 32px 16px 88px !important;
+    /* 88px = 64px bottom nav + 24px breathing room */
+    font-family: var(--font-inter, var(--font-geist-sans, 'DM Sans', sans-serif)) !important;
+  }
+
+  footer .font-display,
+  footer h2.font-display,
+  footer h3.font-display {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  }
+
+  /* 4-column footer grid → stacked */
+  footer [class*="lg:grid-cols-4"] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+
+  /* Brand section — left-align on mobile */
+  footer section[class*="text-center"] {
+    text-align: left !important;
+  }
+
+  /* Social icons row */
+  footer [aria-label="Social Media Links"] {
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+  }
+
+  /* Footer nav columns — smaller text */
+  footer nav[aria-label^="Quick Links"] ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px 12px !important;
+  }
+
+  /* City links grid inside footer → 2 columns */
+  footer [class*="xl:grid-cols-4"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px !important;
+  }
+
+  /* Business info grid → stacked */
+  footer address[class*="lg:grid-cols-4"] {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  /* Footer bottom bar → stacked */
+  footer [class*="md:flex-row"][class*="items-center"] {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 12px !important;
+  }
+
+  /* Hide "Explore Real Estate by City" heading and description on mobile */
+  footer section[class*="border-t"] > div:first-child {
+    display: none !important;
+  }
+
+  /* Property Detail Page - Main Container Top Spacing */
+  /* Add proper top margin to prevent breadcrumb from touching the header */
+  main.container[class*="pt-20"],
+  main.container[class*="pt-24"],
+  main[class*="container"][class*="pt-20"],
+  main[class*="container"][class*="pt-24"] {
+    padding-top: 42px !important;
+    /* Slightly increased from pt-20 (80px) to 82px for minimal spacing below fixed header */
+  }
+
+  /* Property Detail Page - Location & Neighborhood Section */
+  /* Resize the map pin icon to be smaller on mobile */
+  h2 svg[class*="h-7"],
+  h2 svg[class*="w-7"],
+  h2 svg[class*="h-6"],
+  h2 svg[class*="w-6"],
+  h2 svg[class*="h-5"],
+  h2 svg[class*="w-5"] {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  /* Target the heading specifically in property detail pages */
+  .glass-card h2 svg,
+  [class*="rounded-\[1rem\]"] h2 svg,
+  [class*="bg-\[var\(--surface\)\]"] h2 svg {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  /* Properties page container - add bottom padding for mobile nav */
+  body:has([class*="PropertiesLayout"]) {
+    padding-bottom: 80px !important;
+  }
+
+  /* Properties header - better mobile spacing */
+  [class*="properties"] header h1,
+  main header h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  /* Properties CTA buttons - ensure full width on mobile */
+  [class*="properties"] header a[href="/contact"],
+  main header a[href="/contact"] {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 14px 24px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+  }
+
+  /* Filter section - mobile optimizations */
+  [class*="filter"] [class*="sticky"] {
+    top: 60px !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+    z-index: 20 !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Search button alignment fix */
+  [class*="filter"] button[class*="absolute"] {
+    right: 6px !important;
+    height: 36px !important;
+    padding: 0 16px !important;
+  }
+
+  /* Toolbar (List/Map switcher) - ensure visibility */
+  [class*="props-body"]~div:first-of-type,
+  div[class*="z-10"][class*="flex"][class*="justify-between"] {
+    z-index: 15 !important;
+    background: var(--bg) !important;
+    padding: 12px 0 !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Property cards in list view - optimize for mobile */
+  [class*="listing-panel"] {
+    padding-bottom: 80px !important;
+  }
+
+  /* Map toggle buttons on mobile */
+  [class*="props-body"] button,
+  button[class*="rounded-full"] {
+    min-height: 44px !important;
+    padding: 10px 16px !important;
+    font-size: 14px !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     04 · STATS ROW  (placeholder — no element on homepage yet)
+         Ready for when the section is added to the page.
+     ────────────────────────────────────────────────────────── */
+
+  [class*="statsRow"],
+  [class*="metrics"] {
+    display: flex !important;
+    margin: 0 16px 24px !important;
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  [class*="statsRow"]>*,
+  [class*="metrics"]>* {
+    flex: 1 !important;
+    padding: 14px 8px !important;
+    text-align: center !important;
+    border-right: 1px solid #e2dfd8 !important;
+  }
+
+  [class*="statsRow"]>*:last-child,
+  [class*="metrics"]>*:last-child {
+    border-right: none !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     12 · TYPOGRAPHY SCALE
+     Desktop uses Inter (sans-serif) fonts for all headings - maintain on mobile
+     NUCLEAR-LEVEL specificity to override ALL possible styles
+     ────────────────────────────────────────────────────────── */
+
+  /* NUCLEAR OPTION - Force ALL H2 elements to use Inter font (same as desktop) */
+  * h2,
+  * * h2,
+  * * * h2,
+  h2.font-bold,
+  h2.font-semibold,
+  h2.text-xl,
+  h2.text-2xl,
+  h2.text-3xl,
+  h2.text-4xl,
+  h2.text-5xl,
+  h2.text-6xl,
+  [class*="text-"] h2,
+  [class*="font-"] h2,
+  div[class*="text-"] h2,
+  div[class*="font-"] h2,
+  section[class*="text-"] h2,
+  section[class*="font-"] h2,
+  main[class*="text-"] h2,
+  main[class*="font-"] h2,
+  body[class*="text-"] h2,
+  body[class*="font-"] h2,
+  html[class*="text-"] h2,
+  html[class*="font-"] h2 {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 700 !important;
+  }
+
+  /* H1 - Maximum specificity with direct font declaration */
+  h1,
+  h1[class],
+  h1[class*="text-"],
+  h1[class*="font-"],
+  h1.font-bold,
+  h1.font-semibold,
+  h1.font-display,
+  [class*="glass-card"] h1,
+  [class*="rounded"] h1,
+  div h1,
+  section h1,
+  main h1,
+  body h1,
+  html h1 {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  }
+
+  /* H2 - Maximum specificity with direct font declaration */
+  h2,
+  h2[class],
+  h2[class*="text-"],
+  h2[class*="font-"],
+  h2.font-bold,
+  h2.font-semibold,
+  h2.font-display,
+  [class*="glass-card"] h2,
+  [class*="rounded"] h2,
+  div h2,
+  section h2,
+  main h2,
+  body h2,
+  html h2 {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  }
+
+  /* H3 - Maximum specificity with direct font declaration */
+  h3,
+  h3[class],
+  h3[class*="text-"],
+  h3[class*="font-"],
+  h3.font-bold,
+  h3.font-semibold,
+  h3.font-display,
+  [class*="glass-card"] h3,
+  [class*="rounded"] h3,
+  div h3,
+  section h3,
+  main h3,
+  body h3,
+  html h3 {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  }
+
+  /* H4 - Maximum specificity with direct font declaration */
+  h4,
+  h4[class],
+  h4[class*="text-"],
+  h4[class*="font-"],
+  h4.font-bold,
+  h4.font-semibold,
+  h4.font-display,
+  div h4,
+  section h4,
+  main h4,
+  body h4,
+  html h4 {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  }
+
+  /* H5 - Maximum specificity with direct font declaration */
+  h5,
+  h5[class],
+  h5[class*="text-"],
+  h5[class*="font-"],
+  h5.font-bold,
+  h5.font-semibold,
+  h5.font-display,
+  div h5,
+  section h5,
+  main h5,
+  body h5,
+  html h5 {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  }
+
+  /* H6 - Maximum specificity with direct font declaration */
+  h6,
+  h6[class],
+  h6[class*="text-"],
+  h6[class*="font-"],
+  h6.font-bold,
+  h6.font-semibold,
+  h6.font-display,
+  div h6,
+  section h6,
+  main h6,
+  body h6,
+  html h6 {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  }
+
+  /* Section label pills ("Featured Properties", "Explore Counties" etc.) */
+  [class*="uppercase"][class*="tracking-wider"] {
+    font-size: 0.625rem !important;
+    letter-spacing: 0.06em !important;
+  }
+
+  p,
+  li,
+  body p,
+  body li,
+  html p,
+  html li {
+    font-family: "DM Sans", "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 0.9375rem !important;
+    line-height: 1.6 !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     16 · COUNTY DISCOVERY CARDS - DARK MODE FIX
+     Apply clean desktop dark mode styling to mobile
+     Use data attributes for highest specificity
+     ────────────────────────────────────────────────────────── */
+  
+  /* Dark mode - card background and base text color */
+  .dark [data-county-discovery-card="true"] {
+    background: rgba(47, 58, 74, 0.95) !important;
+    color: #E7EEF5 !important;
+  }
+  
+  /* Dark mode - stat values (numbers) */
+  .dark [data-county-stat-value] {
+    color: #E7EEF5 !important;
+  }
+  
+  /* Dark mode - stat labels (Sale, Rent, Median) */
+  .dark [data-county-stat-label] {
+    color: #B7C7D6 !important;
+  }
+  
+  /* Dark mode - stat icons */
+  .dark [data-county-stat-icon] {
+    color: #E7EEF5 !important;
+  }
+  
+  /* Dark mode - buy button */
+  .dark [data-county-action-button="buy"] {
+    color: #FFFFFF !important;
+    background: var(--coastal-primary) !important;
+  }
+  
+  /* Dark mode - rent button */
+  .dark [data-county-action-button="rent"] {
+    color: #E7EEF5 !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
+  
+  /* City name overlay - always white */
+  .dark .city-name-overlay {
+    color: #FFFFFF !important;
+  }
+  
+  /* Fallback: Also target by class for backwards compatibility */
+  .dark .county-city-card {
+    background: rgba(47, 58, 74, 0.95) !important;
+    color: #E7EEF5 !important;
+  }
+  
+  .dark .county-city-card .county-stat-value {
+    color: #E7EEF5 !important;
+  }
+  
+  .dark .county-city-card .county-stat-label {
+    color: #B7C7D6 !important;
+  }
+  
+  .dark .county-city-card .county-buy-button {
+    color: #FFFFFF !important;
+    background: var(--coastal-primary) !important;
+  }
+  
+  .dark .county-city-card .county-rent-button {
+    color: #E7EEF5 !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     17 · PAYMENT ESTIMATE CARD - DARK MODE FIX
+     Remove complex CSS and use simple high-contrast colors
+     matching desktop dark mode for better mobile visibility
+     ────────────────────────────────────────────────────────── */
+  
+  /* Payment estimate card - ensure proper background and text colors in dark mode */
+  .dark [class*="rounded-\[1rem\]"][class*="shadow-md"] {
+    background: #2F3A4A !important;
+    border-color: #4A576A !important;
+  }
+  
+  /* Payment estimate heading and values - high contrast white text */
+  .dark [class*="rounded-\[1rem\]"] h3,
+  .dark [class*="rounded-\[1rem\]"] h3[class*="font-semibold"] {
+    color: #E7EEF5 !important;
+  }
+  
+  /* Payment amount and values - ensure visibility */
+  .dark [class*="rounded-\[1rem\]"] p[class*="text-xs"],
+  .dark [class*="rounded-\[1rem\]"] p[class*="text-sm"],
+  .dark [class*="rounded-\[1rem\]"] span[class*="font-semibold"] {
+    color: #E7EEF5 !important;
+  }
+  
+  /* Muted text labels (Down Payment, Interest Rate, etc.) */
+  .dark [class*="rounded-\[1rem\]"] span[class*="text-\[var\(--coastal-muted-text\)\]"],
+  .dark [class*="rounded-\[1rem\]"] [class*="flex"][class*="items-center"] span:first-child {
+    color: #B7C7D6 !important;
+  }
+  
+  /* Breakdown line items text */
+  .dark [class*="rounded-\[1rem\]"] [class*="space-y-2"] span {
+    color: #B7C7D6 !important;
+  }
+  
+  /* Breakdown values */
+  .dark [class*="rounded-\[1rem\]"] [class*="space-y-2"] span[class*="text-\[var\(--coastal-text\)\]"] {
+    color: #E7EEF5 !important;
+  }
+  
+  /* Total Monthly - bold text */
+  .dark [class*="rounded-\[1rem\]"] [class*="font-semibold"][class*="text-\[var\(--coastal-text\)\]"] {
+    color: #E7EEF5 !important;
+  }
+  
+  /* Buttons hover state background */
+  .dark [class*="rounded-\[1rem\]"] button[class*="hover:bg-\[var\(--surface-muted\)\]"]:hover {
+    background: #3A475A !important;
+  }
+  
+  /* Separator lines */
+  .dark [class*="rounded-\[1rem\]"] [data-orientation="horizontal"] {
+    background: #4A576A !important;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     18 · MORTGAGE CTA LOGO - VISIBILITY ENHANCEMENT
+     Add drop shadows for better visibility without overriding filters
+     ────────────────────────────────────────────────────────── */
+  
+  /* Dark mode - add white glow shadow (brightness/invert handled by Tailwind) */
+  .dark section[class*="rounded-xl"] img[alt*="Lender"],
+  .dark section[class*="rounded-xl"] img[alt*="Partner"],
+  .dark section[class*="rounded-xl"] img[src="/logo.png"] {
+    -webkit-filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.15)) !important;
+    filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.15)) !important;
+  }
+  
+  /* Light mode - add subtle dark shadow for depth */
+  html:not(.dark) section[class*="rounded-xl"] img[alt*="Lender"],
+  html:not(.dark) section[class*="rounded-xl"] img[alt*="Partner"],
+  html:not(.dark) section[class*="rounded-xl"] img[src="/logo.png"] {
+    -webkit-filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)) !important;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)) !important;
+  }
+
+}
+
+/* END @media (max-width: 770px) — nothing goes after this brace */

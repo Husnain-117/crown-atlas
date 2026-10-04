@@ -1,0 +1,791 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "./mobile-header-professional.css";
+@import "./mobile-menu-professional.css";
+@import "./footer-compact.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  /* Coastal Pastel Design Tokens */
+  --bg: #FAF7F2;
+  --surface: #FFFFFF;
+  --surface-muted: #F1EEE7;
+  --coastal-border: #E6E0D7;
+  --coastal-primary: #12324A;
+  --primary-hover: #0F2A3E;
+  --coastal-action: #12324A;
+  --coastal-action-hover: #0F2A3E;
+  --coastal-accent-text: #12324A;
+  --coastal-secondary: #6FA8A3;
+  --secondary-hover: #5F9792;
+  --coastal-accent: #D7C39A;
+  --coastal-text: #1B2430;
+  --coastal-muted-text: #5B6674;
+  --coastal-link: #2F6F8F;
+  --chip-active: #DDEBE8;
+  --success: #16A34A;
+  --warning: #F59E0B;
+  --error: #DC2626;
+
+  --radius: 0.875rem;
+  --background: var(--bg);
+  --foreground: var(--coastal-text);
+  --card: var(--surface);
+  --card-foreground: var(--coastal-text);
+  --popover: var(--surface);
+  --popover-foreground: var(--coastal-text);
+  --primary: var(--coastal-primary);
+  --primary-foreground: #FFFFFF;
+  --secondary: var(--coastal-secondary);
+  --secondary-foreground: #083133;
+  --muted: var(--surface-muted);
+  --muted-foreground: var(--coastal-muted-text);
+  --accent: var(--coastal-accent);
+  --accent-foreground: var(--coastal-text);
+  --destructive: var(--error);
+  --border: var(--coastal-border);
+  --input: var(--surface);
+  --ring: var(--coastal-secondary);
+  --chart-1: var(--coastal-primary);
+  --chart-2: var(--coastal-secondary);
+  --chart-3: var(--coastal-accent);
+  --chart-4: var(--success);
+  --chart-5: var(--warning);
+  --sidebar: var(--surface);
+  --sidebar-foreground: var(--coastal-text);
+  --sidebar-primary: var(--coastal-primary);
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: var(--coastal-secondary);
+  --sidebar-accent-foreground: #083133;
+  --sidebar-border: var(--coastal-border);
+  --sidebar-ring: var(--coastal-secondary);
+}
+
+.dark {
+  --bg: #1B2430;
+  --surface: #2F3A4A;
+  --surface-muted: #3A475A;
+  --coastal-border: #4A576A;
+  --coastal-primary: #6FA8A3;
+  --primary-hover: #5F9792;
+  --coastal-action: #315C57;
+  --coastal-action-hover: #274A46;
+  --coastal-accent-text: #A8D7D2;
+  --coastal-secondary: #D7C39A;
+  --secondary-hover: #C3B08A;
+  --coastal-accent: #12324A;
+  --coastal-text: #E7EEF5;
+  --coastal-muted-text: #B7C7D6;
+  --coastal-link: #8FBACF;
+  --chip-active: #3A5A57;
+  --success: #4CAF50;
+  --warning: #FFC107;
+  --error: #EF5350;
+
+  --background: var(--bg);
+  --foreground: var(--coastal-text);
+  --card: var(--surface);
+  --card-foreground: var(--coastal-text);
+  --popover: var(--surface);
+  --popover-foreground: var(--coastal-text);
+  --primary: var(--coastal-primary);
+  --primary-foreground: var(--coastal-text);
+  --secondary: var(--coastal-secondary);
+  --secondary-foreground: var(--coastal-text);
+  --muted: var(--surface-muted);
+  --muted-foreground: var(--coastal-muted-text);
+  --accent: var(--coastal-accent);
+  --accent-foreground: var(--coastal-text);
+  --destructive: var(--error);
+  --border: var(--coastal-border);
+  --input: var(--surface);
+  --ring: var(--coastal-secondary);
+  --chart-1: var(--coastal-primary);
+  --chart-2: var(--coastal-secondary);
+  --chart-3: var(--coastal-accent);
+  --chart-4: var(--success);
+  --chart-5: var(--warning);
+  --sidebar: var(--surface);
+  --sidebar-foreground: var(--coastal-text);
+  --sidebar-primary: var(--coastal-primary);
+  --sidebar-primary-foreground: var(--coastal-text);
+  --sidebar-accent: var(--coastal-secondary);
+  --sidebar-accent-foreground: var(--coastal-text);
+  --sidebar-border: var(--coastal-border);
+  --sidebar-ring: var(--coastal-secondary);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    /* Ensure CSS vars from layout are used if present */
+    font-family: var(--font-geist-sans, Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial);
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  body {
+    @apply bg-background text-foreground;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  /* Modern utility classes */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Coastal palette gradients — light mode */
+  .bg-gradient-luxury {
+    background: linear-gradient(135deg, #D7C39A 0%, #C3B08A 50%, #A89670 100%);
+  }
+  
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, #12324A 0%, #0F2A3E 100%);
+  }
+  
+  .bg-gradient-accent {
+    background: linear-gradient(135deg, #6FA8A3 0%, #5F9792 100%);
+  }
+  
+  /* Coastal palette gradients — dark mode */
+  .dark .bg-gradient-luxury {
+    background: linear-gradient(135deg, #D7C39A 0%, #C3B08A 50%, #A89670 100%);
+  }
+  
+  .dark .bg-gradient-primary {
+    background: linear-gradient(135deg, #6FA8A3 0%, #5F9792 100%);
+  }
+  
+  .dark .bg-gradient-accent {
+    background: linear-gradient(135deg, #D7C39A 0%, #C3B08A 100%);
+  }
+  
+  /* Glass effects */
+  .bg-glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .bg-glass-dark {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Dark mode glass effects */
+  .dark .bg-glass {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+  }
+  
+  .dark .bg-glass-dark {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Text gradients — coastal palette */
+  .text-gradient-primary {
+    background: linear-gradient(135deg, #12324A 0%, #2F6F8F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-luxury {
+    background: linear-gradient(135deg, #D7C39A 0%, #C3B08A 50%, #A89670 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-seafoam {
+    background: linear-gradient(135deg, #6FA8A3 0%, #5F9792 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Dark mode text gradients */
+  .dark .text-gradient-primary {
+    background: linear-gradient(135deg, #6FA8A3 0%, #8FBACF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .dark .text-gradient-luxury {
+    background: linear-gradient(135deg, #D7C39A 0%, #C3B08A 50%, #A89670 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .dark .text-gradient-seafoam {
+    background: linear-gradient(135deg, #6FA8A3 0%, #8FBACF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Hover effects */
+  .hover-lift {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.15), 0 30px 60px -12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .dark .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.4), 0 30px 60px -12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Glass cards */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark .glass-card {
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  }
+
+  /* County City Cards - Discovery Page */
+  .county-city-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+  }
+  
+  .dark .county-city-card {
+    background: rgba(47, 58, 74, 0.95);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Light mode - ensure dark text on white cards */
+  .county-city-card.text-visible {
+    color: #1B2430 !important;
+  }
+  
+  .county-city-card.text-visible span,
+  .county-city-card.text-visible .font-bold,
+  .county-city-card.text-visible .font-semibold {
+    color: #1B2430 !important;
+  }
+  
+  .county-city-card.text-visible .text-xs {
+    color: #5B6674 !important;
+  }
+
+  /* Dark mode - ensure light text on dark cards */
+  .dark .county-city-card.text-visible {
+    color: #E7EEF5 !important;
+  }
+  
+  .dark .county-city-card.text-visible span,
+  .dark .county-city-card.text-visible .font-bold,
+  .dark .county-city-card.text-visible .font-semibold {
+    color: #E7EEF5 !important;
+  }
+  
+  .dark .county-city-card.text-visible .text-xs {
+    color: #B7C7D6 !important;
+  }
+
+  /* City name overlay - always white text on both light and dark modes */
+  .city-name-overlay,
+  .county-city-card .city-name-overlay,
+  .county-city-card.text-visible .city-name-overlay {
+    color: #FFFFFF !important;
+  }
+  
+  .dark .city-name-overlay,
+  .dark .county-city-card .city-name-overlay,
+  .dark .county-city-card.text-visible .city-name-overlay {
+    color: #FFFFFF !important;
+  }
+
+  /* County card buttons - ensure proper text colors */
+  .county-buy-button,
+  .county-city-card .county-buy-button,
+  .county-city-card.text-visible .county-buy-button {
+    color: #FFFFFF !important;
+  }
+  
+  .dark .county-buy-button,
+  .dark .county-city-card .county-buy-button,
+  .dark .county-city-card.text-visible .county-buy-button {
+    color: #FFFFFF !important;
+  }
+
+  .county-rent-button,
+  .county-city-card .county-rent-button,
+  .county-city-card.text-visible .county-rent-button {
+    color: var(--coastal-text) !important;
+  }
+  
+  .dark .county-rent-button,
+  .dark .county-city-card .county-rent-button,
+  .dark .county-city-card.text-visible .county-rent-button {
+    color: #E7EEF5 !important;
+  }
+
+  /* County card stats - ensure proper text colors */
+  .county-stat-value,
+  .county-city-card .county-stat-value,
+  .county-city-card.text-visible .county-stat-value {
+    color: #1B2430 !important;
+  }
+  
+  .dark .county-stat-value,
+  .dark .county-city-card .county-stat-value,
+  .dark .county-city-card.text-visible .county-stat-value {
+    color: #E7EEF5 !important;
+  }
+
+  .county-stat-label,
+  .county-city-card .county-stat-label,
+  .county-city-card.text-visible .county-stat-label {
+    color: #5B6674 !important;
+  }
+  
+  .dark .county-stat-label,
+  .dark .county-city-card .county-stat-label,
+  .dark .county-city-card.text-visible .county-stat-label {
+    color: #B7C7D6 !important;
+  }
+
+  /* Dark mode backgrounds — coastal palette */
+  .dark-gradient-bg {
+    background: linear-gradient(135deg, #1B2430 0%, #2F3A4A 50%, #3A475A 100%);
+  }
+  
+  .dark-hero-bg {
+    background: linear-gradient(135deg, #1B2430 0%, #12324A 30%, #0F2A3E 100%);
+  }
+
+  /* Coastal section backgrounds — replaces neutral / slate / orange shades */
+  .coastal-section-light {
+    background: linear-gradient(135deg, var(--bg) 0%, var(--surface) 50%, var(--surface-muted) 100%);
+  }
+  .dark .coastal-section-light {
+    background: linear-gradient(135deg, var(--bg) 0%, var(--surface) 50%, var(--surface-muted) 100%);
+  }
+
+  .coastal-section-alt {
+    background: linear-gradient(135deg, var(--surface-muted) 0%, var(--bg) 50%, var(--surface) 100%);
+  }
+  .dark .coastal-section-alt {
+    background: linear-gradient(135deg, var(--surface-muted) 0%, var(--bg) 50%, var(--surface) 100%);
+  }
+  
+  /* Theme transition */
+  .theme-transition {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+
+  /* Logo dark mode utilities */
+  .logo-dark-mode {
+    transition: filter 0.3s ease;
+  }
+  
+  .dark .logo-dark-mode {
+    filter: brightness(0) invert(1);
+  }
+
+  /* Crown Coastal logo theme styling - now handled by Tailwind classes in components */
+
+  /* Property page animations */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.6s ease-out;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out;
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Smooth pulse animation */
+  .animate-pulse-soft {
+    animation: pulseSoft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulseSoft {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  /* Float animation for background elements */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px) translateX(0px);
+    }
+    25% {
+      transform: translateY(-20px) translateX(10px);
+    }
+    50% {
+      transform: translateY(0px) translateX(20px);
+    }
+    75% {
+      transform: translateY(20px) translateX(10px);
+    }
+  }
+
+  /* Shimmer effect for loading states */
+  .animate-shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s ease-in-out infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+/* Accordion Animations */
+.accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+.accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}
+
+/* Brand colors with dark mode support */
+.bg-brand-white {
+  background-color: hsl(0 0% 100%);
+}
+.dark .bg-brand-white {
+  background-color: hsl(220 13% 18%);
+}
+
+.text-brand-midnightCove {
+  --tw-text-opacity: 1;
+  color: hsl(220 35% 28% / var(--tw-text-opacity, 1));
+}
+.dark .text-brand-midnightCove {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 95% / var(--tw-text-opacity, 1));
+}
+
+/* Landing subheading color (#fcba03) */
+.text-brand-skyBlue {
+  --tw-text-opacity: 1;
+  color: hsl(44 98% 50% / var(--tw-text-opacity, 1));
+}
+.dark .text-brand-skyBlue {
+  --tw-text-opacity: 1;
+  color: hsl(44 100% 65% / var(--tw-text-opacity, 1));
+}
+
+.bg-brand-californiaSand {
+  background-color: hsl(35 40% 92%);
+}
+.dark .bg-brand-californiaSand {
+  background-color: hsl(220 13% 18%);
+}
+
+.bg-brand-californiaSand\/50 {
+  background-color: hsl(35 40% 92% / 0.5);
+}
+.dark .bg-brand-californiaSand\/50 {
+  background-color: hsl(220 13% 18% / 0.5);
+}
+
+.shadow-subtle {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.dark .shadow-subtle {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-medium {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.dark .shadow-medium {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-strong {
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
+}
+.dark .shadow-strong {
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
+}
+
+.text-brand-pacificTeal {
+  --tw-text-opacity: 1;
+  color: hsl(180 40% 45% / var(--tw-text-opacity, 1));
+}
+.dark .text-brand-pacificTeal {
+  --tw-text-opacity: 1;
+  color: hsl(180 60% 70% / var(--tw-text-opacity, 1));
+}
+
+.bg-brand-pacificTeal\/10 {
+  background-color: hsl(180 40% 45% / 0.1);
+}
+.dark .bg-brand-pacificTeal\/10 {
+  background-color: hsl(180 60% 70% / 0.2);
+}
+
+.fill-brand-goldenHour {
+  fill: hsl(40, 60%, 70%);
+}
+.dark .fill-brand-goldenHour {
+  fill: hsl(40, 80%, 80%);
+}
+
+.bg-brand-sunsetBlush {
+  --tw-bg-opacity: 1;
+  background-color: hsl(15 65% 65% / var(--tw-bg-opacity, 1));
+}
+.dark .bg-brand-sunsetBlush {
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 75 40 / var(--tw-bg-opacity, 1));
+}
+
+.text-brand-goldenHour {
+  color: hsl(40, 60%, 70%);
+}
+.dark .text-brand-goldenHour {
+  color: hsl(40, 80%, 80%);
+}
+
+.text-brand-graphitePeak {
+  color: hsl(220 20% 35%);
+}
+.dark .text-brand-graphitePeak {
+  color: hsl(0 0% 85%);
+}
+
+.border-brand-silverMist\/50 {
+  border-color: hsl(220 20% 80% / 0.5);
+}
+.dark .border-brand-silverMist\/50 {
+  border-color: hsl(220 20% 40% / 0.5);
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide,
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar,
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Safe area for mobile devices (notch, home indicator) */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.safe-area-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* Hero carousel - force full height on all embla-carousel containers */
+.hero-carousel,
+.hero-carousel > *,
+.hero-carousel [data-embla-root],
+.hero-carousel [data-embla-viewport],
+.hero-carousel [data-embla-container] {
+  height: 100% !important;
+}
+
+.hero-carousel [data-embla-slide] {
+  height: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+/* Mobile devices - Clean styling (matches desktop dark mode) */
+@media (max-width: 770px) {
+  /* Dark mode - use data attributes for highest specificity */
+  .dark [data-county-discovery-card="true"] {
+    background: rgba(47, 58, 74, 0.95) !important;
+    color: #E7EEF5 !important;
+  }
+  
+  .dark [data-county-stat-value] {
+    color: #E7EEF5 !important;
+  }
+  
+  .dark [data-county-stat-label] {
+    color: #B7C7D6 !important;
+  }
+  
+  .dark [data-county-stat-icon] {
+    color: #E7EEF5 !important;
+  }
+  
+  .dark [data-county-action-button="buy"] {
+    color: #FFFFFF !important;
+    background: var(--coastal-primary) !important;
+  }
+  
+  .dark [data-county-action-button="rent"] {
+    color: #E7EEF5 !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
+  
+  /* Fallback: class-based selectors for backwards compatibility */
+  .dark .county-city-card {
+    background: rgba(47, 58, 74, 0.95) !important;
+    color: #E7EEF5 !important;
+  }
+  
+  .dark .county-city-card .county-stat-value {
+    color: #E7EEF5 !important;
+  }
+  
+  .dark .county-city-card .county-stat-label {
+    color: #B7C7D6 !important;
+  }
+  
+  .dark .county-city-card .county-buy-button {
+    color: #FFFFFF !important;
+  }
+  
+  .dark .county-city-card .county-rent-button {
+    color: #E7EEF5 !important;
+  }
+}
+
+/* ============================================================
+   Mobile override — must be the LAST import in this file
+   so it wins over all Tailwind utility classes above.
+   ============================================================ */
+@import './crown-coastal-mobile.css';

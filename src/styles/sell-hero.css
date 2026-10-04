@@ -1,0 +1,392 @@
+/* ============================================================
+   Crown Coastal - Sell Page Hero Section
+   Unique namespace: cc-sell-hero-*
+   Professional responsive design with perfect centering
+   ============================================================ */
+
+/* Hero Section Container */
+.cc-sell-hero-section {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+}
+
+/* Background Carousel */
+.cc-sell-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cc-sell-hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
+}
+
+.cc-sell-hero-slide.cc-active {
+  opacity: 1;
+}
+
+/* Gradient Overlay */
+.cc-sell-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), transparent);
+  z-index: 10;
+}
+
+/* Navigation Arrows */
+.cc-sell-hero-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  background: rgba(15, 42, 68, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  display: none;
+}
+
+.cc-sell-hero-arrow:hover {
+  background: rgba(15, 42, 68, 1);
+  transform: translateY(-50%) scale(1.05);
+}
+
+.cc-sell-hero-arrow-left {
+  left: 16px;
+}
+
+.cc-sell-hero-arrow-right {
+  right: 16px;
+}
+
+/* Carousel Dots */
+.cc-sell-hero-dots {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: none;
+  gap: 0;
+}
+
+.cc-sell-hero-dot {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.cc-sell-hero-dot::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.4);
+  transition: all 300ms ease;
+}
+
+.cc-sell-hero-dot:hover::before {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.cc-sell-hero-dot.cc-active::before {
+  background: var(--coastal-accent, #c9a84c);
+  width: 24px;
+}
+
+/* Content Container - PERFECT CENTERING */
+.cc-sell-hero-container {
+  position: relative;
+  z-index: 20;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Breadcrumbs */
+.cc-sell-hero-breadcrumbs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+/* Main Content Wrapper */
+.cc-sell-hero-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Heading */
+.cc-sell-hero-heading {
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 24px;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: center;
+}
+
+.cc-sell-hero-heading span {
+  display: inline;
+  width: 100%;
+  text-align: center;
+}
+
+/* Description */
+.cc-sell-hero-description {
+  font-family: var(--font-inter, var(--font-geist-sans, 'DM Sans', 'Inter', sans-serif));
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  line-height: 1.6;
+  margin: 0 0 32px;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.cc-sell-hero-description span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/* Mobile/Desktop Text Toggle */
+.cc-mobile-text {
+  display: block;
+}
+
+.cc-desktop-text {
+  display: none;
+}
+
+/* CTA Buttons Container */
+.cc-sell-hero-cta {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cc-sell-hero-btn {
+  width: 100%;
+  min-height: 52px;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 300ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.cc-sell-hero-btn-primary {
+  background: var(--coastal-primary, #0f2a44);
+  color: white;
+  border: none;
+}
+
+.cc-sell-hero-btn-primary:hover {
+  background: var(--primary-hover, #1a3a5a);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode - same as light mode */
+.dark .cc-sell-hero-btn-primary {
+  background: var(--coastal-primary, #0f2a44);
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+.dark .cc-sell-hero-btn-primary:hover {
+  background: var(--primary-hover, #1a3a5a);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cc-sell-hero-btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  color: white;
+  border: 2px solid white;
+}
+
+.cc-sell-hero-btn-secondary:hover {
+  background: white;
+  color: var(--coastal-primary, #0f2a44);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Dark mode - same as light mode */
+.dark .cc-sell-hero-btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  color: white;
+  border: 2px solid white;
+}
+
+.dark .cc-sell-hero-btn-secondary:hover {
+  background: white;
+  color: var(--coastal-primary, #0f2a44);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS
+   ============================================================ */
+
+/* Tablet and up (640px+) */
+@media (min-width: 640px) {
+  .cc-sell-hero-section {
+    min-height: 70vh;
+  }
+
+  .cc-sell-hero-container {
+    padding: 100px 32px 80px;
+  }
+
+  .cc-sell-hero-breadcrumbs {
+    margin-bottom: 32px;
+  }
+
+  .cc-sell-hero-content {
+    margin-bottom: 40px;
+  }
+
+  .cc-sell-hero-heading {
+    margin-bottom: 28px;
+  }
+
+  .cc-sell-hero-description {
+    margin-bottom: 40px;
+  }
+
+  .cc-sell-hero-cta {
+    flex-direction: row;
+    gap: 16px;
+    max-width: 600px;
+    justify-content: center;
+  }
+
+  .cc-sell-hero-btn {
+    width: auto;
+    min-width: 200px;
+    padding: 16px 32px;
+    font-size: 18px;
+  }
+
+  .cc-sell-hero-arrow {
+    display: none;
+  }
+
+  .cc-sell-hero-dots {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+
+  /* Show desktop text, hide mobile text */
+  .cc-mobile-text {
+    display: none;
+  }
+
+  .cc-desktop-text {
+    display: block;
+  }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+  .cc-sell-hero-section {
+    min-height: 75vh;
+  }
+
+  .cc-sell-hero-container {
+    padding: 120px 48px 100px;
+  }
+
+  .cc-sell-hero-content {
+    max-width: 900px;
+  }
+
+  .cc-sell-hero-description {
+    max-width: 700px;
+  }
+
+  .cc-sell-hero-arrow {
+    display: inline-flex;
+  }
+
+  .cc-sell-hero-dots {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Large Desktop (1280px+) */
+@media (min-width: 1280px) {
+  .cc-sell-hero-heading {
+    font-size: 4rem;
+  }
+
+  .cc-sell-hero-description {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .cc-sell-hero-heading {
+    font-size: 4rem;
+  }
+
+  .cc-sell-hero-description {
+    font-size: 1.5rem;
+  }
+}

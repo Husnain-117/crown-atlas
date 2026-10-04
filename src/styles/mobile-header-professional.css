@@ -1,0 +1,240 @@
+/**
+ * Crown Coastal Homes — Professional Mobile Header Styles
+ * 
+ * COMPLETE REWRITE with unique IDs for guaranteed specificity
+ * Logo LEFT, Hamburger RIGHT, Menu BELOW when clicked
+ */
+
+/* ═══════════════════════════════════════════════════════════
+   MOBILE HEADER CONTAINER (unique ID)
+   ═══════════════════════════════════════════════════════════ */
+
+#mobile-header-container {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  
+  /* Compact sizing */
+  height: auto !important;
+  min-height: 56px !important;
+  width: 100% !important;
+  
+  /* Compact padding */
+  padding: 8px 16px !important;
+  padding-top: max(8px, env(safe-area-inset-top)) !important;
+  padding-bottom: max(8px, env(safe-area-inset-bottom)) !important;
+  
+  /* Styling — theme-aware (matches desktop navbar var(--surface)) */
+  background: var(--surface) !important;
+  color: var(--coastal-text) !important;
+  border-bottom: 1px solid var(--coastal-border) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  
+  /* Layout */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+/* Hide on desktop */
+@media (min-width: 1024px) {
+  #mobile-header-container {
+    display: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   LOGO SECTION (LEFT - unique ID)
+   ═══════════════════════════════════════════════════════════ */
+
+#mobile-logo-section {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  flex: 1 !important;
+  min-width: 0 !important;
+  text-decoration: none !important;
+  color: var(--coastal-text) !important;
+  transition: opacity 0.2s ease !important;
+}
+
+#mobile-logo-section:hover {
+  opacity: 0.9 !important;
+}
+
+/* Logo image (actual Crown Coastal logo, same as desktop) */
+#mobile-logo-image-wrapper {
+  position: relative !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   RIGHT-SIDE ACTIONS WRAPPER (theme toggle + hamburger)
+   ═══════════════════════════════════════════════════════════ */
+
+#mobile-header-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-shrink: 0 !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   THEME TOGGLE BUTTON (LEFT of hamburger - unique ID)
+   ═══════════════════════════════════════════════════════════ */
+
+#mobile-theme-toggle-btn {
+  background: transparent !important;
+  border: none !important;
+  border-width: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  color: var(--coastal-text) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: pointer !important;
+
+  /* Touch target */
+  width: 44px !important;
+  height: 44px !important;
+  min-width: 44px !important;
+  min-height: 44px !important;
+
+  /* Center icon */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  /* Transitions */
+  transition: opacity 0.2s ease, transform 0.2s ease !important;
+
+  /* Remove tap highlight */
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#mobile-theme-toggle-btn:hover {
+  opacity: 0.75 !important;
+}
+
+#mobile-theme-toggle-btn:active {
+  opacity: 0.7 !important;
+  transform: scale(0.95) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   HAMBURGER BUTTON (RIGHT - unique ID)
+   ═══════════════════════════════════════════════════════════ */
+
+#mobile-hamburger-btn {
+  background: var(--surface-muted) !important;
+  border: 1px solid var(--coastal-border) !important;
+  border-radius: 8px !important;
+  color: var(--coastal-text) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: pointer !important;
+  
+  /* Touch target */
+  width: 44px !important;
+  height: 44px !important;
+  min-width: 44px !important;
+  min-height: 44px !important;
+  
+  /* Center icon */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  
+  /* Transitions */
+  transition: all 0.2s ease !important;
+  
+  /* Remove tap highlight */
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#mobile-hamburger-btn:hover {
+  border-color: var(--coastal-secondary) !important;
+  opacity: 0.85 !important;
+}
+
+#mobile-hamburger-btn:active {
+  opacity: 0.7 !important;
+  transform: scale(0.95) !important;
+}
+
+#mobile-hamburger-btn svg {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   MOBILE MENU PANEL (unique ID) - FORCE VISIBILITY
+   ═══════════════════════════════════════════════════════════ */
+
+/* NOTE: #mobile-menu-panel background & layout is owned by mobile-menu-professional.css.
+   Do NOT set background here — the drawer is always dark (#0F2340) regardless of theme. */
+
+/* #mobile-menu-links legacy ID — hidden by mobile-menu-professional.css */
+
+/* ═══════════════════════════════════════════════════════════
+   BODY TOP PADDING - Remove gap between header and hero
+   ═══════════════════════════════════════════════════════════ */
+
+@media (max-width: 1023px) {
+  body {
+    padding-top: 56px !important; /* Match header height */
+  }
+  
+  /* Also apply to main content area */
+  main,
+  #__next > div > main,
+  .hero-section {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   DARK MODE — CSS variables on :root/.dark handle everything.
+   No overrides needed here since all colors use var().
+   ═══════════════════════════════════════════════════════════ */
+
+
+/* ═══════════════════════════════════════════════════════════
+   ACCESSIBILITY
+   ═══════════════════════════════════════════════════════════ */
+
+@media (prefers-reduced-motion: reduce) {
+  #mobile-header-container,
+  #mobile-theme-toggle-btn,
+  #mobile-hamburger-btn,
+  #mobile-menu-panel,
+  #mobile-menu-links a {
+    transition: none !important;
+  }
+}
+
+#mobile-theme-toggle-btn:focus-visible,
+#mobile-hamburger-btn:focus-visible,
+#mobile-menu-links a:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.5) !important;
+  outline-offset: 2px !important;
+}
+
+/* Print styles */
+@media print {
+  .site-header {
+    position: static;
+    box-shadow: none;
+  }
+
+  .header-actions {
+    display: none;
+  }
+}

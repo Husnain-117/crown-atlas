@@ -1,0 +1,853 @@
+{
+  "san-diego": {
+    "id": "san-diego",
+    "name": "San Diego",
+    "fullName": "San Diego, California",
+    "heroImage": "/County/San-Diego/hero-sandiego.jpg",
+    "mapPlaceholderImage": "/san-diego-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Coastal Communities",
+        "neighborhoods": [
+          {
+            "name": "La Jolla",
+            "href": "/buy/san-diego/la-jolla",
+            "image": "/city/san-diego/la-jolla-ca.png"
+          },
+          {
+            "name": "Pacific Beach",
+            "href": "/buy/san-diego/pacific-beach",
+            "image": "/city/san-diego/pacific-beach-ca.png"
+          },
+          {
+            "name": "Ocean Beach",
+            "href": "/buy/san-diego/ocean-beach",
+            "image": "/city/san-diego/ocean-beach-ca.png"
+          },
+          {
+            "name": "Mission Beach",
+            "href": "/buy/san-diego/mission-beach"
+          },
+          {
+            "name": "Point Loma",
+            "href": "/buy/san-diego/point-loma"
+          }
+        ]
+      },
+      {
+        "name": "Downtown & Urban Core",
+        "neighborhoods": [
+          {
+            "name": "Gaslamp Quarter",
+            "href": "/buy/san-diego/gaslamp-quarter",
+            "image": "/city/san-diego/gaslamp-quarter-ca.png"
+          },
+          {
+            "name": "Little Italy",
+            "href": "/buy/san-diego/little-italy",
+            "image": "/city/san-diego/little-italy-ca.png"
+          },
+          {
+            "name": "East Village",
+            "href": "/buy/san-diego/east-village",
+            "image": "/city/san-diego/east-village-ca.png"
+          },
+          {
+            "name": "Hillcrest",
+            "href": "/buy/san-diego/hillcrest",
+            "image": "/city/san-diego/hillcrest-ca.png"
+          },
+          {
+            "name": "North Park",
+            "href": "/buy/san-diego/north-park",
+            "image": "/city/san-diego/north-park-ca.png"
+          }
+        ]
+      },
+      {
+        "name": "Inland & Suburban",
+        "neighborhoods": [
+          {
+            "name": "Rancho Bernardo",
+            "href": "/buy/san-diego/rancho-bernardo",
+            "image": "/city/san-diego/rancho-bernardo-ca.png"
+          },
+          {
+            "name": "Mission Valley",
+            "href": "/buy/san-diego/mission-valley"
+          },
+          {
+            "name": "Scripps Ranch",
+            "href": "/buy/san-diego/scripps-ranch",
+            "image": "/city/san-diego/scripps-ranch-ca.png"
+          },
+          {
+            "name": "Kensington",
+            "href": "/buy/san-diego/kensington"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      32.5343,
+      -117.2872,
+      33.1142,
+      -116.9056
+    ],
+    "county": "san-diego-county"
+  },
+  "alameda": {
+    "id": "alameda",
+    "name": "Alameda County",
+    "fullName": "Alameda County, California",
+    "heroImage": "/Main-Hero-Card-county/Alameda.jpg",
+    "mapPlaceholderImage": "/alameda-county-neighborhoods-map.png",
+    "neighborhoodCategories": [],
+    "county": "alameda-county"
+  },
+  "riverside": {
+    "id": "riverside",
+    "name": "Riverside County",
+    "fullName": "Riverside County, California",
+    "heroImage": "/Main-Hero-Card-county/Riverside.jpg",
+    "mapPlaceholderImage": "/riverside-county-neighborhoods-map.png",
+    "neighborhoodCategories": [],
+    "county": "riverside-county"
+  },
+  "los-angeles": {
+    "id": "los-angeles",
+    "name": "Los Angeles",
+    "fullName": "Los Angeles, California",
+    "heroImage": "/County/Los-angelous/heroandcard.jpg",
+    "mapPlaceholderImage": "/los-angeles-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Westside",
+        "neighborhoods": [
+          {
+            "name": "Mar Vista",
+            "href": "/buy/los-angeles/mar-vista"
+          },
+          {
+            "name": "Venice",
+            "href": "/buy/los-angeles/venice",
+            "image": "/County/Los-angelous/VeniceCanals.jpg"
+          },
+          {
+            "name": "Brentwood",
+            "href": "/buy/los-angeles/brentwood",
+            "image": "/County/Los-angelous/SanVicente.jpg"
+          },
+          {
+            "name": "Pacific Palisades",
+            "href": "/buy/los-angeles/pacific-palisades",
+            "image": "/County/Los-angelous/PacificPalisades.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Central LA",
+        "neighborhoods": [
+          {
+            "name": "Hollywood",
+            "href": "/buy/los-angeles/hollywood",
+            "image": "/County/Los-angelous/HollywoodSign.jpg"
+          },
+          {
+            "name": "Hancock Park",
+            "href": "/buy/los-angeles/hancock-park"
+          },
+          {
+            "name": "Koreatown",
+            "href": "/buy/los-angeles/koreatown",
+            "image": "/County/Los-angelous/Koreatown.jpg"
+          },
+          {
+            "name": "Downtown LA",
+            "href": "/buy/los-angeles/downtown",
+            "image": "/County/Los-angelous/DowntownLA.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Eastside & Hills",
+        "neighborhoods": [
+          {
+            "name": "Silver Lake",
+            "href": "/buy/los-angeles/silver-lake",
+            "image": "/County/Los-angelous/SilverLake.jpg"
+          },
+          {
+            "name": "Los Feliz",
+            "href": "/buy/los-angeles/los-feliz",
+            "image": "/County/Los-angelous/Griffith.jpg"
+          },
+          {
+            "name": "Echo Park",
+            "href": "/buy/los-angeles/echo-park",
+            "image": "/County/Los-angelous/EchoPark.jpg"
+          },
+          {
+            "name": "Hollywood Hills",
+            "href": "/buy/los-angeles/hollywood-hills",
+            "image": "/County/Los-angelous/HollywoodHills.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Luxury & Iconic",
+        "neighborhoods": [
+          {
+            "name": "Westwood",
+            "href": "/buy/los-angeles/westwood"
+          },
+          {
+            "name": "Bel Air",
+            "href": "/buy/los-angeles/bel-air",
+            "image": "/County/Los-angelous/Bel-Air.jpg"
+          },
+          {
+            "name": "Holmby Hills",
+            "href": "/buy/los-angeles/holmby-hills"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      33.7037,
+      -118.6682,
+      34.3373,
+      -118.1553
+    ],
+    "county": "los-angeles-county"
+  },
+  "san-francisco": {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "fullName": "San Francisco, California",
+    "heroImage": "/city/california/san-francisco/san-francisco-ca.webp",
+    "mapPlaceholderImage": "/san-francisco-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Central & Iconic",
+        "neighborhoods": [
+          {
+            "name": "Nob Hill",
+            "href": "/buy/san-francisco/nob-hill",
+            "image": "/County/San-Fransisco/NobHill.jpg"
+          },
+          {
+            "name": "Russian Hill",
+            "href": "/buy/san-francisco/russian-hill",
+            "image": "/County/San-Fransisco/LombardStreet.jpg"
+          },
+          {
+            "name": "Pacific Heights",
+            "href": "/buy/san-francisco/pacific-heights",
+            "image": "/County/San-Fransisco/PacificHeights.jpg"
+          },
+          {
+            "name": "North Beach",
+            "href": "/buy/san-francisco/north-beach",
+            "image": "/County/San-Fransisco/NorthBeach.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Trendy & Diverse",
+        "neighborhoods": [
+          {
+            "name": "Mission District",
+            "href": "/buy/san-francisco/mission",
+            "image": "/County/San-Fransisco/MissionDistrict.jpg"
+          },
+          {
+            "name": "Castro",
+            "href": "/buy/san-francisco/castro",
+            "image": "/County/San-Fransisco/CastroTheatre.jpg"
+          },
+          {
+            "name": "Hayes Valley",
+            "href": "/buy/san-francisco/hayes-valley",
+            "image": "/County/San-Fransisco/HayesValleyboutiques.jpg"
+          },
+          {
+            "name": "SoMa",
+            "href": "/buy/san-francisco/soma",
+            "image": "/County/San-Fransisco/skylineSoMa.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Classic & Family-Friendly",
+        "neighborhoods": [
+          {
+            "name": "Noe Valley",
+            "href": "/buy/san-francisco/noe-valley",
+            "image": "/County/San-Fransisco/NoeValley.jpg"
+          },
+          {
+            "name": "Sunset District",
+            "href": "/buy/san-francisco/sunset",
+            "image": "/County/San-Fransisco/OceanBeach.jpg"
+          },
+          {
+            "name": "Richmond District",
+            "href": "/buy/san-francisco/richmond",
+            "image": "/County/San-Fransisco/GoldenGatePark.jpg"
+          },
+          {
+            "name": "Bernal Heights",
+            "href": "/buy/san-francisco/bernal-heights",
+            "image": "/County/San-Fransisco/BernalHeights.jpg"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      37.6398,
+      -123.1738,
+      37.9298,
+      -122.2818
+    ],
+    "county": "san-francisco-county"
+  },
+  "san-jose": {
+    "id": "san-jose",
+    "name": "San Jose",
+    "fullName": "San Jose, California",
+    "heroImage": "/san-jose-silicon-valley.jpg",
+    "mapPlaceholderImage": "/san-jose-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Central & Downtown",
+        "neighborhoods": [
+          {
+            "name": "Japantown",
+            "href": "/buy/san-jose/japantown",
+            "image": "/Neighbourhood/japantown-san-jose.jpg"
+          },
+          {
+            "name": "Rose Garden",
+            "href": "/buy/san-jose/rose-garden",
+            "image": "/Neighbourhood/rose-garden-san-jose.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Established Communities",
+        "neighborhoods": [
+          {
+            "name": "Willow Glen",
+            "href": "/buy/san-jose/willow-glen",
+            "image": "/Neighbourhood/willow-glen-san-jose.png"
+          },
+          {
+            "name": "Almaden Valley",
+            "href": "/buy/san-jose/almaden-valley",
+            "image": "/Neighbourhood/almaden-valley-san-jose.jpg"
+          },
+          {
+            "name": "Evergreen",
+            "href": "/buy/san-jose/evergreen",
+            "image": "/Neighbourhood/evergreen-san-jose.jpg"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      37.1242,
+      -122.0664,
+      37.4694,
+      -121.6511
+    ],
+    "county": "santa-clara-county"
+  },
+  "santa-barbara": {
+    "id": "santa-barbara",
+    "name": "Santa Barbara",
+    "fullName": "Santa Barbara, California",
+    "heroImage": "/santa-barbara-american-riviera.jpg",
+    "mapPlaceholderImage": "/santa-barbara-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Coastal & Central",
+        "neighborhoods": [
+          {
+            "name": "Mesa",
+            "href": "/buy/santa-barbara/mesa",
+            "image": "/Neighbourhood/mesa-santa-barbara.jpg"
+          },
+          {
+            "name": "West Beach",
+            "href": "/buy/santa-barbara/west-beach",
+            "image": "/modern-ocean-living.png"
+          }
+        ]
+      },
+      {
+        "name": "Luxury Communities",
+        "neighborhoods": [
+          {
+            "name": "Downtown Santa Barbara",
+            "href": "/buy/santa-barbara/downtown-santa-barbara"
+          },
+          {
+            "name": "Hope Ranch",
+            "href": "/buy/santa-barbara/hope-ranch",
+            "image": "/luxury-modern-house-exterior.png"
+          },
+          {
+            "name": "Riviera",
+            "href": "/buy/santa-barbara/riviera",
+            "image": "/Neighbourhood/riviera-santa-barbara.jpg"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      34.3616,
+      -119.8637,
+      34.4832,
+      -119.6211
+    ],
+    "county": "santa-barbara-county"
+  },
+  "napa": {
+    "id": "napa",
+    "name": "Napa",
+    "fullName": "Napa Valley, California",
+    "heroImage": "/County/Napa-Country/hero-card.jpg",
+    "mapPlaceholderImage": "/napa-valley-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Napa Valley Communities",
+        "neighborhoods": [
+          {
+            "name": "Downtown Napa",
+            "href": "/buy/napa/downtown-napa"
+          },
+          {
+            "name": "Browns Valley",
+            "href": "/buy/napa/browns-valley"
+          },
+          {
+            "name": "Oakville",
+            "href": "/buy/napa/oakville",
+            "image": "/Neighbourhood/oakville-napa.jpg"
+          },
+          {
+            "name": "Carneros",
+            "href": "/buy/napa/carneros",
+            "image": "/Neighbourhood/carneros-napa.jpg"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      38.2367,
+      -122.5467,
+      38.6043,
+      -122.2099
+    ],
+    "county": "napa-county"
+  },
+  "santa-monica": {
+    "id": "santa-monica",
+    "name": "Santa Monica",
+    "fullName": "Santa Monica, California",
+    "heroImage": "/santa-monica-beach-pier.jpg",
+    "mapPlaceholderImage": "/santa-monica-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Santa Monica Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Ocean Park",
+            "href": "/buy/santa-monica/ocean-park"
+          },
+          {
+            "name": "North of Montana",
+            "href": "/buy/santa-monica/north-of-montana"
+          },
+          {
+            "name": "Sunset Park",
+            "href": "/buy/santa-monica/sunset-park"
+          },
+          {
+            "name": "Mid-City Santa Monica",
+            "href": "/buy/santa-monica/mid-city-santa-monica"
+          },
+          {
+            "name": "Santa Monica Canyon",
+            "href": "/buy/santa-monica/santa-monica-canyon"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      34.0001,
+      -118.5274,
+      34.0567,
+      -118.4617
+    ],
+    "county": "los-angeles-county"
+  },
+  "malibu": {
+    "id": "malibu",
+    "name": "Malibu",
+    "fullName": "Malibu, California",
+    "heroImage": "/malibu-coastline-beach.jpg",
+    "mapPlaceholderImage": "/malibu-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Malibu Communities",
+        "neighborhoods": [
+          {
+            "name": "Malibu Colony",
+            "href": "/buy/malibu/malibu-colony"
+          },
+          {
+            "name": "Point Dume",
+            "href": "/buy/malibu/point-dume"
+          },
+          {
+            "name": "Broad Beach",
+            "href": "/buy/malibu/broad-beach"
+          },
+          {
+            "name": "Malibu Park",
+            "href": "/buy/malibu/malibu-park"
+          },
+          {
+            "name": "Serra Retreat",
+            "href": "/buy/malibu/serra-retreat"
+          },
+          {
+            "name": "Carbon Beach (Billionaire Beach)",
+            "href": "/buy/malibu/carbon-beach"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      33.9607,
+      -118.9451,
+      34.0899,
+      -118.5685
+    ],
+    "county": "los-angeles-county"
+  },
+  "san-mateo": {
+    "id": "san-mateo",
+    "name": "San Mateo",
+    "fullName": "San Mateo, California",
+    "heroImage": "/san-mateo-peninsula.jpg",
+    "mapPlaceholderImage": "/san-mateo-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "San Mateo Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Baywood",
+            "href": "/buy/san-mateo/baywood"
+          },
+          {
+            "name": "Hillsdale",
+            "href": "/buy/san-mateo/hillsdale"
+          },
+          {
+            "name": "Park Manor",
+            "href": "/buy/san-mateo/park-manor"
+          },
+          {
+            "name": "Aragon",
+            "href": "/buy/san-mateo/aragon"
+          },
+          {
+            "name": "Shoreview",
+            "href": "/buy/san-mateo/shoreview"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      37.5268,
+      -122.3413,
+      37.5872,
+      -122.2677
+    ],
+    "county": "san-mateo-county"
+  },
+  "redwood-city": {
+    "id": "redwood-city",
+    "name": "Redwood City",
+    "fullName": "Redwood City, California",
+    "heroImage": "/redwood-city-downtown.jpg",
+    "mapPlaceholderImage": "/redwood-city-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Redwood City Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Emerald Hills",
+            "href": "/buy/redwood-city/emerald-hills"
+          },
+          {
+            "name": "Friendly Acres",
+            "href": "/buy/redwood-city/friendly-acres"
+          },
+          {
+            "name": "Farm Hills",
+            "href": "/buy/redwood-city/farm-hills"
+          },
+          {
+            "name": "Redwood Shores",
+            "href": "/buy/redwood-city/redwood-shores"
+          },
+          {
+            "name": "Woodside Plaza",
+            "href": "/buy/redwood-city/woodside-plaza"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      37.4403,
+      -122.2605,
+      37.5321,
+      -122.1805
+    ],
+    "county": "san-mateo-county"
+  },
+  "palm-springs": {
+    "id": "palm-springs",
+    "name": "Palm Springs",
+    "fullName": "Palm Springs, California",
+    "heroImage": "/palm-springs-desert-mountains.jpg",
+    "mapPlaceholderImage": "/palm-springs-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Palm Springs Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Old Las Palmas",
+            "href": "/buy/palm-springs/old-las-palmas"
+          },
+          {
+            "name": "Movie Colony",
+            "href": "/buy/palm-springs/movie-colony"
+          },
+          {
+            "name": "Vista Las Palmas",
+            "href": "/buy/palm-springs/vista-las-palmas"
+          },
+          {
+            "name": "Racquet Club Estates",
+            "href": "/buy/palm-springs/racquet-club-estates"
+          },
+          {
+            "name": "Andreas Hills",
+            "href": "/buy/palm-springs/andreas-hills"
+          },
+          {
+            "name": "Twin Palms",
+            "href": "/buy/palm-springs/twin-palms"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      33.773,
+      -116.595,
+      33.8769,
+      -116.4988
+    ],
+    "county": "riverside-county"
+  },
+  "orange": {
+    "id": "orange",
+    "name": "Orange",
+    "fullName": "Orange, California",
+    "heroImage": "/County/Orange/HuntingtonBeach.jpg",
+    "mapPlaceholderImage": "/orange-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Orange Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Old Towne Orange",
+            "href": "/buy/orange/old-towne-orange"
+          },
+          {
+            "name": "Orange Park Acres",
+            "href": "/buy/orange/orange-park-acres"
+          },
+          {
+            "name": "East Orange",
+            "href": "/buy/orange/east-orange"
+          },
+          {
+            "name": "The Colony",
+            "href": "/buy/orange/the-colony"
+          },
+          {
+            "name": "Serrano Heights",
+            "href": "/buy/orange/serrano-heights"
+          },
+          {
+            "name": "El Modena",
+            "href": "/buy/orange/el-modena"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      33.7676,
+      -117.8865,
+      33.8282,
+      -117.7852
+    ],
+    "county": "orange-county"
+  },
+  "ventura": {
+    "id": "ventura",
+    "name": "Ventura",
+    "fullName": "Ventura, California",
+    "heroImage": "/ventura-beach-coastline.jpg",
+    "mapPlaceholderImage": "/ventura-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Ventura Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Pierpont",
+            "href": "/buy/ventura/pierpont"
+          },
+          {
+            "name": "Ventura Midtown",
+            "href": "/buy/ventura/ventura-midtown"
+          },
+          {
+            "name": "Ventura Avenue",
+            "href": "/buy/ventura/ventura-avenue"
+          },
+          {
+            "name": "College Area",
+            "href": "/buy/ventura/college-area"
+          },
+          {
+            "name": "Montalvo",
+            "href": "/buy/ventura/montalvo"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      34.2376,
+      -119.3374,
+      34.3088,
+      -119.2293
+    ],
+    "county": "ventura-county"
+  },
+  "santa-rosa": {
+    "id": "santa-rosa",
+    "name": "Santa Rosa",
+    "fullName": "Santa Rosa, California",
+    "heroImage": "/santa-rosa-wine-country.jpg",
+    "mapPlaceholderImage": "/santa-rosa-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Santa Rosa Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Railroad Square",
+            "href": "/buy/santa-rosa/railroad-square"
+          },
+          {
+            "name": "Fountaingrove",
+            "href": "/buy/santa-rosa/fountaingrove"
+          },
+          {
+            "name": "Bennett Valley",
+            "href": "/buy/santa-rosa/bennett-valley"
+          },
+          {
+            "name": "Junior College Area",
+            "href": "/buy/santa-rosa/junior-college-area"
+          },
+          {
+            "name": "Rincon Valley",
+            "href": "/buy/santa-rosa/rincon-valley"
+          },
+          {
+            "name": "West End",
+            "href": "/buy/santa-rosa/west-end"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      38.3906,
+      -122.7683,
+      38.5235,
+      -122.5825
+    ],
+    "county": "sonoma-county"
+  },
+  "sonoma": {
+    "id": "sonoma",
+    "name": "Sonoma",
+    "fullName": "Sonoma, California",
+    "heroImage": "/sonoma-plaza-wine-country.jpg",
+    "mapPlaceholderImage": "/sonoma-neighborhoods-map.png",
+    "neighborhoodCategories": [
+      {
+        "name": "Sonoma Neighborhoods",
+        "neighborhoods": [
+          {
+            "name": "Sonoma Plaza Area",
+            "href": "/buy/sonoma/sonoma-plaza-area"
+          },
+          {
+            "name": "Springs Area (Boyes Hot Springs, Agua Caliente)",
+            "href": "/buy/sonoma/springs-area"
+          },
+          {
+            "name": "Sonoma Valley Estates",
+            "href": "/buy/sonoma/sonoma-valley-estates"
+          },
+          {
+            "name": "East Sonoma",
+            "href": "/buy/sonoma/east-sonoma"
+          },
+          {
+            "name": "Glen Ellen (nearby)",
+            "href": "/buy/sonoma/glen-ellen"
+          },
+          {
+            "name": "West Sonoma",
+            "href": "/buy/sonoma/west-sonoma"
+          }
+        ]
+      }
+    ],
+    "osmBoundingBox": [
+      38.2579,
+      -122.5067,
+      38.3252,
+      -122.4093
+    ],
+    "county": "sonoma-county"
+  },
+  "san-bernardino": {
+    "id": "san-bernardino",
+    "name": "San Bernardino County",
+    "fullName": "San Bernardino County, California",
+    "heroImage": "/Main-Hero-Card-county/San-Bernardino.jpg",
+    "mapPlaceholderImage": "/san-bernardino-neighborhoods-map.png",
+    "neighborhoodCategories": [],
+    "county": "san-bernardino"
+  }
+}

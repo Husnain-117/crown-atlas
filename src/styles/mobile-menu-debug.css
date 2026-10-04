@@ -1,0 +1,79 @@
+/**
+ * DEBUG: Ultra-simple mobile menu with unique IDs
+ * NO CONFLICTS - MAXIMUM SPECIFICITY
+ */
+
+/* Menu Panel - Unique ID with maximum specificity */
+#mobile-menu-panel {
+  position: fixed !important;
+  top: 60px !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: calc(100vh - 60px) !important;
+  background: red !important; /* RED FOR DEBUG - should be visible */
+  z-index: 99999 !important;
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: translateY(-100%) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* SHOW MENU - Multiple selectors for maximum coverage */
+#mobile-menu-panel.active,
+#mobile-menu-panel[data-active="true"],
+body #mobile-menu-panel.active,
+#__next #mobile-menu-panel.active,
+div #mobile-menu-panel.active {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
+  position: fixed !important;
+  top: 60px !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: calc(100vh - 60px) !important;
+  background: red !important; /* KEEP RED FOR DEBUG */
+  z-index: 99999 !important;
+}
+
+/* Menu Content - Make it obvious */
+#mobile-menu-content {
+  padding: 40px 20px !important;
+  background: blue !important; /* BLUE FOR DEBUG */
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Menu Links - Make them visible */
+#mobile-menu-links {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+#mobile-menu-links a {
+  color: white !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  background: green !important; /* GREEN FOR DEBUG */
+  padding: 20px 40px !important;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+}
+
+/* Hide on desktop */
+@media (min-width: 1024px) {
+  #mobile-menu-panel {
+    display: none !important;
+  }
+}

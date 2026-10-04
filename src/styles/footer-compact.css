@@ -1,0 +1,94 @@
+/* Footer height compaction utilities
+ * IMPORTANT: we never remove DOM nodes or <a> tags; we only collapse visually.
+ */
+
+.county-link-block {
+  /* Screen-reader-safe hiding: keep in DOM, remove from layout */
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.footer-compact-links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 4px 12px !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.footer-compact-links li {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.footer-compact-links li::after {
+  content: "·" !important;
+  margin-left: 12px !important;
+  color: #8a99a9 !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+}
+
+.footer-compact-links li:last-child::after {
+  content: "" !important;
+  margin-left: 0 !important;
+}
+
+.footer-compact-legal-links {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 16px !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 1023px) {
+  .footer-compact-legal-links {
+    flex-wrap: wrap !important;
+  }
+}
+
+.footer-inline-dot-links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.footer-inline-dot-links li {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.footer-inline-dot-links li::after {
+  content: "·" !important;
+  margin-left: 8px !important;
+  color: #8a99a9 !important;
+  font-size: 12px !important;
+  line-height: 1 !important;
+}
+
+.footer-inline-dot-links li:last-child::after {
+  content: "" !important;
+  margin-left: 0 !important;
+}
+
+.footer-inline-dot-label::after {
+  content: "" !important;
+  margin-left: 0 !important;
+}
+

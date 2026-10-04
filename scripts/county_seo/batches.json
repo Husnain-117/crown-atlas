@@ -1,0 +1,8 @@
+[
+  ["santa-barbara", "alameda", "alpine", "amador", "butte", "calaveras", "colusa", "contra-costa", "del-norte", "el-dorado"],
+  ["fresno", "glenn", "humboldt", "imperial", "inyo", "kern", "kings", "lake", "lassen", "madera"],
+  ["marin", "mariposa", "mendocino", "merced", "modoc", "mono", "monterey", "nevada", "placer", "plumas"],
+  ["riverside", "sacramento", "san-benito", "san-bernardino", "san-francisco", "san-joaquin", "san-luis-obispo", "san-mateo", "santa-cruz", "shasta"],
+  ["sierra", "siskiyou", "solano", "sonoma", "stanislaus", "sutter", "tehama", "trinity", "tulare", "tuolumne"],
+  ["ventura", "yolo", "yuba"]
+]
